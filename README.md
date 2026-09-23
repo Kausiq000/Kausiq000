@@ -1,114 +1,100 @@
-<table width="100%">
-  <tr>
-    <td width="70%" valign="top">
-      <code><font color="#E50914"><b>// SYSTEM: ACTIVE</b></font> &nbsp;|&nbsp; <font color="#9CA3AF">PORTFOLIO &nbsp;|&nbsp; AIML ARCHITECTURE</font></code>
-      <br/><br/>
-      <h1><strong><font color="#FFFFFF">KAUSIQ</font> <font color="#E50914">SR</font></strong></h1>
-      <p>
-        <strong><code>AI/ML ENGINEER &nbsp;•&nbsp; UI/UX DESIGNER &nbsp;•&nbsp; PROMPT ENGINEER</code></strong>
-      </p>
-      <p>
-        Final-Year B.Tech Student in Artificial Intelligence &amp; Machine Learning<br/>
-        <strong>SRM Institute of Science and Technology – Ramapuram</strong> • India
-      </p>
-      <!-- DYNAMIC MONOSPACE TYPING BANNER -->
-      <a href="https://github.com/Kausiq000">
-        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=2800&pause=1000&color=E50914&center=false&vCenter=true&width=520&lines=AI%2FML+Engineer+%7C+UI%2FUX+Designer+%7C+Prompt+Engineer;Final-Year+AIML+Student+%40+SRM+IST+Ramapuram;LLMs+%E2%80%A2+Generative+AI+%E2%80%A2+Machine+Learning+%E2%80%A2+Computer+Vision;Building+Intelligent+Software+%26+Digital+Experiences" alt="Terminal Typing" />
-      </a>
-    </td>
-    <td width="30%" valign="top">
-      <code><font color="#E50914"><b>METRICS // TELEMETRY</b></font></code>
-      <br/><br/>
-      <code><font color="#9CA3AF">SPECIALIZATION</font></code><br/>
-      <strong>Edge AI &amp; LLMs</strong><br/><br/>
-      <code><font color="#9CA3AF">INTELLECTUAL PROP</font></code><br/>
-      <strong><font color="#E50914">Patent Under Review</font></strong><br/><br/>
-      <code><font color="#9CA3AF">RESEARCH</font></code><br/>
-      <strong>FMDB '26 (Edge AI)</strong><br/><br/>
-      <code><font color="#9CA3AF">HACKATHONS</font></code><br/>
-      <strong>NxtGen Runner-Up</strong>
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+  <!-- ENGINEERING TITLE BANNER -->
+  <a href="https://github.com/Kausiq000">
+    <img src="assets/header.svg" width="100%" alt="Kausiq SR - Engineering Title Banner" />
+  </a>
+
+  <br/><br/>
+
+  <!-- GREETING & IDENTITY -->
+  <h3>Hi there! I'm Kausiq SR 👋</h3>
+
+  <p>
+    <strong><code>AI/ML ENGINEER &nbsp;•&nbsp; UI/UX DESIGNER &nbsp;•&nbsp; PROMPT ENGINEER</code></strong>
+  </p>
+
+  <p>
+    Final-Year B.Tech Student in Artificial Intelligence &amp; Machine Learning<br/>
+    <strong>SRM Institute of Science and Technology – Ramapuram</strong> • India
+  </p>
+
+  <!-- DYNAMIC TERMINAL TYPING BANNER -->
+  <a href="https://github.com/Kausiq000">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=15&duration=2800&pause=1000&color=E50914&center=true&vCenter=true&width=750&lines=AI%2FML+Engineer+%7C+UI%2FUX+Designer+%7C+Prompt+Engineer;Final-Year+AIML+Student+%40+SRM+IST+Ramapuram;LLMs+%E2%80%A2+Generative+AI+%E2%80%A2+Machine+Learning+%E2%80%A2+Computer+Vision;Building+Intelligent+Software+%26+Digital+Experiences" alt="Terminal Typing" />
+  </a>
+
+  <br/><br/>
+
+  <!-- REFERENCE-STYLE COMPACT SOCIAL BADGES -->
+  <p align="center">
+    <a href="https://www.linkedin.com/in/kausiq-sr-5015942a2" target="_blank">
+      <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A0A0A&color=E50914" alt="LinkedIn" />
+    </a>
+    &nbsp;
+    <a href="https://github.com/Kausiq000" target="_blank">
+      <img src="https://img.shields.io/badge/GITHUB-FOLLOW-0A0A0A?style=for-the-badge&logo=github&logoColor=white&labelColor=0A0A0A&color=E50914" alt="GitHub" />
+    </a>
+    &nbsp;
+    <a href="mailto:kausiqsr@gmail.com">
+      <img src="https://img.shields.io/badge/EMAIL-CONTACT-0A0A0A?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A0A0A&color=E50914" alt="Email" />
+    </a>
+    &nbsp;
+    <a href="https://drive.google.com/drive/folders/1NodTsQREZlZgzx7k0xsnhAiiNDsav0Wc" target="_blank">
+      <img src="https://img.shields.io/badge/RESUME-VIEW_CV-0A0A0A?style=for-the-badge&logo=googledrive&logoColor=white&labelColor=0A0A0A&color=E50914" alt="Resume" />
+    </a>
+    &nbsp;
+    <a href="https://www.instagram.com/_.kxusiq._?stkn=d3IzdmE2cnBicXp4" target="_blank">
+      <img src="https://img.shields.io/badge/INSTAGRAM-FOLLOW-0A0A0A?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0A0A0A&color=E50914" alt="Instagram" />
+    </a>
+  </p>
+
+  <!-- PROFILE VIEWS COUNTER -->
+  <p align="center">
+    <img src="https://komarev.com/ghpvc/?username=Kausiq000&label=PROFILE+VIEWS&style=flat-square&color=E50914" alt="Profile Views" />
+  </p>
+
+</div>
 
 <br/>
 
-<!-- UNIFIED 5-CONTAINER TECHNICAL CONTACT BAR -->
-<table width="100%">
-  <tr align="center">
-    <td width="20%" valign="middle">
-      <a href="https://github.com/Kausiq000" target="_blank">
-        <img src="https://api.iconify.design/simple-icons:github.svg?color=%23ffffff" width="18" height="18" alt="GitHub" /><br/>
-        <code><font color="#E50914"><b>GITHUB</b></font></code><br/>
-        <sub><font color="#9CA3AF">@Kausiq000</font></sub>
-      </a>
-    </td>
-    <td width="20%" valign="middle">
-      <a href="https://www.linkedin.com/in/kausiq-sr-5015942a2" target="_blank">
-        <img src="https://api.iconify.design/simple-icons:linkedin.svg?color=%23ffffff" width="18" height="18" alt="LinkedIn" /><br/>
-        <code><font color="#E50914"><b>LINKEDIN</b></font></code><br/>
-        <sub><font color="#9CA3AF">Kausiq SR</font></sub>
-      </a>
-    </td>
-    <td width="20%" valign="middle">
-      <a href="mailto:kausiqsr@gmail.com">
-        <img src="https://api.iconify.design/simple-icons:gmail.svg?color=%23ffffff" width="18" height="18" alt="Email" /><br/>
-        <code><font color="#E50914"><b>EMAIL</b></font></code><br/>
-        <sub><font color="#9CA3AF">Contact Me</font></sub>
-      </a>
-    </td>
-    <td width="20%" valign="middle">
-      <a href="https://drive.google.com/drive/folders/1NodTsQREZlZgzx7k0xsnhAiiNDsav0Wc" target="_blank">
-        <img src="https://api.iconify.design/simple-icons:googledrive.svg?color=%23ffffff" width="18" height="18" alt="Resume" /><br/>
-        <code><font color="#E50914"><b>RESUME</b></font></code><br/>
-        <sub><font color="#9CA3AF">View CV</font></sub>
-      </a>
-    </td>
-    <td width="20%" valign="middle">
-      <a href="https://www.instagram.com/_.kxusiq._?stkn=d3IzdmE2cnBicXp4" target="_blank">
-        <img src="https://api.iconify.design/simple-icons:instagram.svg?color=%23ffffff" width="18" height="18" alt="Instagram" /><br/>
-        <code><font color="#E50914"><b>INSTAGRAM</b></font></code><br/>
-        <sub><font color="#9CA3AF">@_.kxusiq._</font></sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/Kausiq000/Kausiq000/main/assets/divider.svg" width="100%" alt="Divider" />
+<img src="assets/divider.svg" width="100%" alt="Divider" />
 
 <br/>
 
 <a id="about"></a>
-## ⚡ &nbsp; About Me
+## 🔴 &nbsp; About Me
 
 <table width="100%">
   <tr>
-    <td width="100%" valign="top">
-      <code><font color="#E50914"><b>// PROFILE SUMMARY</b></font> &nbsp;|&nbsp; <font color="#9CA3AF">FINAL-YEAR AIML STUDENT</font></code>
+    <td width="55%" valign="top">
+      <code><font color="#E50914"><b>// PROFILE SUMMARY</b></font> &nbsp;|&nbsp; <font color="#9CA3AF">AIML STUDENT</font></code>
       <br/><br/>
-      <h3><strong>Engineering Intelligent Systems at the Intersection of AI &amp; Product Design</strong></h3>
-      <p>
-        I’m a final-year B.Tech student in <strong>Artificial Intelligence and Machine Learning</strong> at <strong>SRM Institute of Science and Technology – Ramapuram</strong>, India. My core engineering focus centers on building practical, edge-compatible AI/ML solutions across <strong>Large Language Models (LLMs)</strong>, <strong>Generative AI</strong>, <strong>Natural Language Processing (NLP)</strong>, and <strong>Computer Vision</strong>.
-      </p>
-      <p>
-        I bridge rigorous machine learning architectures with human-centered product development—combining advanced prompt engineering and model pipelines with high-fidelity UI/UX design systems in <strong>Figma</strong> to deliver robust, production-ready software experiences.
-      </p>
-      <br/>
-      <code><font color="#E50914">LOCATION // </font><font color="#9CA3AF">SRM IST • RAMAPURAM • INDIA</font> &nbsp;&nbsp;|&nbsp;&nbsp; <font color="#E50914">STATUS // </font><font color="#9CA3AF">AVAILABLE FOR COLLABORATIVE OPPORTUNITIES</font></code>
+      <strong>Final-Year B.Tech Student in Artificial Intelligence and Machine Learning</strong><br/>
+      <sub>SRM Institute of Science and Technology – Ramapuram • India</sub>
+      <br/><br/>
+      I’m a final-year B.Tech student specializing in <strong>Artificial Intelligence and Machine Learning</strong> at SRM IST Ramapuram. My focus is on developing practical, edge-compatible AI solutions across <strong>Large Language Models (LLMs)</strong>, <strong>Generative AI</strong>, <strong>Natural Language Processing (NLP)</strong>, and <strong>Computer Vision</strong>.
+      <br/><br/>
+      I combine machine learning model architectures with human-centered product development—leveraging structured <strong>prompt engineering</strong> alongside high-fidelity UI/UX design in <strong>Figma</strong> to build intelligent, user-centered digital applications.
+      <br/><br/>
+      <code><font color="#E50914">LOCATION // </font><font color="#9CA3AF">SRM IST • RAMAPURAM • INDIA</font></code><br/>
+      <code><font color="#E50914">STATUS // </font><font color="#9CA3AF">AVAILABLE FOR COLLABORATIVE OPPORTUNITIES</font></code>
+    </td>
+    <td width="45%" valign="middle" align="center">
+      <!-- VISUAL ELEMENT INSIDE ABOUT -->
+      <img src="assets/about-visual.svg" width="100%" alt="Neural Architecture Visual" />
     </td>
   </tr>
 </table>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Kausiq000/Kausiq000/main/assets/divider.svg" width="100%" alt="Divider" />
+<img src="assets/divider.svg" width="100%" alt="Divider" />
 
 <br/>
 
 <a id="tech-stack"></a>
-## 🛠️ &nbsp; Engineering Stack
+## 🛠️ &nbsp; Engineering Tech Stack
 
 <table width="100%">
   <tr>
@@ -178,37 +164,39 @@
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Kausiq000/Kausiq000/main/assets/divider.svg" width="100%" alt="Divider" />
+<img src="assets/divider.svg" width="100%" alt="Divider" />
+
+<br/>
+
+<a id="featured-project"></a>
+## 🌟 &nbsp; Featured Project Spotlight
+
+<table width="100%">
+  <tr>
+    <td width="100%" valign="top">
+      <code><font color="#E50914"><b>01 // FEATURED FLAGSHIP SPOTLIGHT</b></font></code> &nbsp;|&nbsp; <code><font color="#9CA3AF">INTELLECTUAL PROPERTY</font></code>
+      <br/><br/>
+      <h2><strong>ThirdEye</strong></h2>
+      <p>
+        <strong>Assistive technology designed to support visually impaired users.</strong>
+      </p>
+      <p>
+        ThirdEye delivers real-time environmental perception and obstacle detection for visually impaired individuals through an offline edge-AI architecture, multimodal sensing, and localized tactile feedback.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/STATUS-PATENT_FILED_%2F_UNDER_REVIEW-E50914?style=for-the-badge&logo=shield&logoColor=white&labelColor=0A0A0A" alt="Patent Status" />
+      </p>
+      <code><font color="#E50914">FOCUS // </font><font color="#9CA3AF">AI • COMPUTER VISION • ASSISTIVE TECHNOLOGY • EDGE COMPUTING</font></code>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
 <a id="projects"></a>
-## 🚀 &nbsp; Featured Projects
-
-Technical portfolio showcase spanning assistive systems, computer vision, machine learning, and software architectures:
+## 📂 &nbsp; Project Showcase
 
 <table width="100%">
-  <!-- FLAGSHIP PROJECT: 01 // THIRDEYE -->
-  <tr>
-    <td colspan="2" valign="top">
-      <table width="100%">
-        <tr>
-          <td>
-            <code><font color="#E50914"><b>01 // FLAGSHIP ASSISTIVE AI</b></font></code> &nbsp;|&nbsp; <code><font color="#9CA3AF">PATENT STATUS</font></code>
-            <br/><br/>
-            <h2><strong>ThirdEye</strong></h2>
-            <p>
-              Assistive technology designed to support visually impaired users through real-time environmental perception, intelligent edge processing, and sensory feedback.
-            </p>
-            <p>
-              <img src="https://img.shields.io/badge/STATUS-PATENT_FILED_%2F_UNDER_REVIEW-E50914?style=for-the-badge&logo=shield&logoColor=white&labelColor=0A0A0A" alt="Patent Status" />
-            </p>
-            <code><font color="#E50914">TECH STACK // </font><font color="#9CA3AF">AI • COMPUTER VISION • ASSISTIVE TECHNOLOGY • EDGE COMPUTING</font></code>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
   <!-- ROW 1: 02 & 03 -->
   <tr>
     <td width="50%" valign="top">
@@ -277,7 +265,7 @@ Technical portfolio showcase spanning assistive systems, computer vision, machin
       <code><font color="#E50914">STACK // </font><font color="#9CA3AF">OPENCV • PYTHON • IMAGE PROCESSING</font></code>
     </td>
   </tr>
-  <!-- CLOSING CARD: 10 // POWER OUTAGE -->
+  <!-- ROW 5: 10 -->
   <tr>
     <td colspan="2" valign="top">
       <code><font color="#E50914"><b>10 // PREDICTIVE ANALYTICS</b></font></code>
@@ -291,7 +279,7 @@ Technical portfolio showcase spanning assistive systems, computer vision, machin
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Kausiq000/Kausiq000/main/assets/divider.svg" width="100%" alt="Divider" />
+<img src="assets/divider.svg" width="100%" alt="Divider" />
 
 <br/>
 
@@ -325,7 +313,7 @@ Technical portfolio showcase spanning assistive systems, computer vision, machin
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Kausiq000/Kausiq000/main/assets/divider.svg" width="100%" alt="Divider" />
+<img src="assets/divider.svg" width="100%" alt="Divider" />
 
 <br/>
 
@@ -351,7 +339,7 @@ Technical portfolio showcase spanning assistive systems, computer vision, machin
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Kausiq000/Kausiq000/main/assets/divider.svg" width="100%" alt="Divider" />
+<img src="assets/divider.svg" width="100%" alt="Divider" />
 
 <br/>
 
@@ -383,12 +371,12 @@ Technical portfolio showcase spanning assistive systems, computer vision, machin
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Kausiq000/Kausiq000/main/assets/divider.svg" width="100%" alt="Divider" />
+<img src="assets/divider.svg" width="100%" alt="Divider" />
 
 <br/>
 
 <a id="connect"></a>
-## 🚀 &nbsp; Let's Connect
+## 🤝 &nbsp; Let's Connect
 
 <table width="100%">
   <tr>
@@ -397,48 +385,37 @@ Technical portfolio showcase spanning assistive systems, computer vision, machin
         <em>Open to AI/ML projects, software development opportunities, and collaborative technical work.</em>
       </p>
       <br/>
-      <table width="100%">
-        <tr align="center">
-          <td width="20%" valign="middle">
-            <a href="https://github.com/Kausiq000" target="_blank">
-              <img src="https://api.iconify.design/simple-icons:github.svg?color=%23ffffff" width="18" height="18" alt="GitHub" /><br/>
-              <code><font color="#E50914"><b>GITHUB</b></font></code><br/>
-              <sub><font color="#9CA3AF">@Kausiq000</font></sub>
-            </a>
-          </td>
-          <td width="20%" valign="middle">
-            <a href="https://www.linkedin.com/in/kausiq-sr-5015942a2" target="_blank">
-              <img src="https://api.iconify.design/simple-icons:linkedin.svg?color=%23ffffff" width="18" height="18" alt="LinkedIn" /><br/>
-              <code><font color="#E50914"><b>LINKEDIN</b></font></code><br/>
-              <sub><font color="#9CA3AF">Kausiq SR</font></sub>
-            </a>
-          </td>
-          <td width="20%" valign="middle">
-            <a href="mailto:kausiqsr@gmail.com">
-              <img src="https://api.iconify.design/simple-icons:gmail.svg?color=%23ffffff" width="18" height="18" alt="Email" /><br/>
-              <code><font color="#E50914"><b>EMAIL</b></font></code><br/>
-              <sub><font color="#9CA3AF">Contact Me</font></sub>
-            </a>
-          </td>
-          <td width="20%" valign="middle">
-            <a href="https://drive.google.com/drive/folders/1NodTsQREZlZgzx7k0xsnhAiiNDsav0Wc" target="_blank">
-              <img src="https://api.iconify.design/simple-icons:googledrive.svg?color=%23ffffff" width="18" height="18" alt="Resume" /><br/>
-              <code><font color="#E50914"><b>RESUME</b></font></code><br/>
-              <sub><font color="#9CA3AF">View CV</font></sub>
-            </a>
-          </td>
-          <td width="20%" valign="middle">
-            <a href="https://www.instagram.com/_.kxusiq._?stkn=d3IzdmE2cnBicXp4" target="_blank">
-              <img src="https://api.iconify.design/simple-icons:instagram.svg?color=%23ffffff" width="18" height="18" alt="Instagram" /><br/>
-              <code><font color="#E50914"><b>INSTAGRAM</b></font></code><br/>
-              <sub><font color="#9CA3AF">@_.kxusiq._</font></sub>
-            </a>
-          </td>
-        </tr>
-      </table>
-      <br/>
-      <sub>© 2026 KAUSIQ SR • AI/ML ENGINEER • UI/UX DESIGNER • PROMPT ENGINEER</sub><br/>
-      <sub>SRM INSTITUTE OF SCIENCE AND TECHNOLOGY – RAMAPURAM</sub>
+      <p align="center">
+        <a href="https://www.linkedin.com/in/kausiq-sr-5015942a2" target="_blank">
+          <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A0A0A&color=E50914" alt="LinkedIn" />
+        </a>
+        &nbsp;
+        <a href="https://github.com/Kausiq000" target="_blank">
+          <img src="https://img.shields.io/badge/GITHUB-FOLLOW-0A0A0A?style=for-the-badge&logo=github&logoColor=white&labelColor=0A0A0A&color=E50914" alt="GitHub" />
+        </a>
+        &nbsp;
+        <a href="mailto:kausiqsr@gmail.com">
+          <img src="https://img.shields.io/badge/EMAIL-CONTACT-0A0A0A?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A0A0A&color=E50914" alt="Email" />
+        </a>
+        &nbsp;
+        <a href="https://drive.google.com/drive/folders/1NodTsQREZlZgzx7k0xsnhAiiNDsav0Wc" target="_blank">
+          <img src="https://img.shields.io/badge/RESUME-VIEW_CV-0A0A0A?style=for-the-badge&logo=googledrive&logoColor=white&labelColor=0A0A0A&color=E50914" alt="Resume" />
+        </a>
+        &nbsp;
+        <a href="https://www.instagram.com/_.kxusiq._?stkn=d3IzdmE2cnBicXp4" target="_blank">
+          <img src="https://img.shields.io/badge/INSTAGRAM-FOLLOW-0A0A0A?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0A0A0A&color=E50914" alt="Instagram" />
+        </a>
+      </p>
     </td>
   </tr>
 </table>
+
+<br/>
+
+<!-- TECHNICAL FOOTER SVG -->
+<img src="assets/footer.svg" width="100%" alt="Footer" />
+
+<div align="center">
+  <sub>© 2026 KAUSIQ SR • AI/ML ENGINEER • UI/UX DESIGNER • PROMPT ENGINEER</sub><br/>
+  <sub>SRM INSTITUTE OF SCIENCE AND TECHNOLOGY – RAMAPURAM</sub>
+</div>

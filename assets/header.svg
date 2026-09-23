@@ -1,54 +1,62 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" width="100%" height="100%">
   <defs>
     <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050507"/>
-      <stop offset="50%" stop-color="#0C0D12"/>
-      <stop offset="100%" stop-color="#050507"/>
-    </linearGradient>
-    <linearGradient id="laserBeam" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#E50914" stop-opacity="0"/>
-      <stop offset="25%" stop-color="#E50914" stop-opacity="0.8"/>
-      <stop offset="50%" stop-color="#FF2A3A" stop-opacity="1"/>
-      <stop offset="75%" stop-color="#E50914" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#E50914" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#070709"/>
+      <stop offset="50%" stop-color="#120608"/>
+      <stop offset="100%" stop-color="#070709"/>
     </linearGradient>
     <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#E50914" stop-opacity="0.18"/>
-      <stop offset="70%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#E50914" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#E50914" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#252528" stroke-width="0.5" stroke-opacity="0.3"/>
+    </pattern>
   </defs>
 
-  <!-- Container -->
-  <rect x="2" y="2" width="956" height="216" rx="8" fill="url(#headerGrad)" stroke="#2A2A2A" stroke-width="1.5"/>
-  <ellipse cx="480" cy="110" rx="350" ry="80" fill="url(#centerGlow)"/>
+  <!-- Background Surface -->
+  <rect x="2" y="2" width="956" height="216" rx="8" fill="url(#headerGrad)"/>
+  <rect x="2" y="2" width="956" height="216" rx="8" fill="url(#grid)"/>
+  <ellipse cx="480" cy="110" rx="400" ry="90" fill="url(#centerGlow)"/>
+
+  <!-- Outer Double Border -->
+  <rect x="8" y="8" width="944" height="204" rx="6" fill="none" stroke="#E50914" stroke-opacity="0.45" stroke-width="1.2"/>
+  <rect x="12" y="12" width="936" height="196" rx="4" fill="none" stroke="#2A2A2A" stroke-width="0.8"/>
 
   <!-- Technical Corner Brackets -->
-  <path d="M 20 30 L 20 20 L 30 20" stroke="#E50914" stroke-width="1.5" fill="none"/>
-  <path d="M 940 30 L 940 20 L 930 20" stroke="#E50914" stroke-width="1.5" fill="none"/>
-  <path d="M 20 190 L 20 200 L 30 200" stroke="#E50914" stroke-width="1.5" fill="none"/>
-  <path d="M 940 190 L 940 200 L 930 200" stroke="#E50914" stroke-width="1.5" fill="none"/>
+  <path d="M 22 36 L 22 22 L 36 22" stroke="#E50914" stroke-width="2" fill="none"/>
+  <circle cx="22" cy="22" r="2" fill="#E50914"/>
 
-  <!-- Top Metadata -->
-  <text x="480" y="44" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="11" font-weight="600" letter-spacing="4" fill="#8E929B">
-    <tspan fill="#FF2A3A">// SYSTEM: ACTIVE</tspan> &nbsp;|&nbsp; PORTFOLIO &nbsp;|&nbsp; AIML ARCHITECTURE
-  </text>
+  <path d="M 938 36 L 938 22 L 924 22" stroke="#E50914" stroke-width="2" fill="none"/>
+  <circle cx="938" cy="22" r="2" fill="#E50914"/>
 
-  <!-- Main Name -->
-  <text x="480" y="112" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Arial, sans-serif" font-weight="900" font-size="52" letter-spacing="12" fill="#FFFFFF">
+  <path d="M 22 184 L 22 198 L 36 198" stroke="#E50914" stroke-width="2" fill="none"/>
+  <circle cx="22" cy="198" r="2" fill="#E50914"/>
+
+  <path d="M 938 184 L 938 198 L 924 198" stroke="#E50914" stroke-width="2" fill="none"/>
+  <circle cx="938" cy="198" r="2" fill="#E50914"/>
+
+  <!-- Top Pill Badge: BUILDING REAL-WORLD TECH -->
+  <rect x="365" y="24" width="230" height="24" rx="12" fill="#141416" stroke="#E50914" stroke-width="1.2" stroke-opacity="0.8"/>
+  <circle cx="382" cy="36" r="3" fill="#E50914"/>
+  <text x="484" y="40" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="10" font-weight="700" letter-spacing="2" fill="#E2E4E9">BUILDING REAL-WORLD TECH</text>
+
+  <!-- Primary Visual Anchor: KAUSIQ SR -->
+  <text x="480" y="104" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Arial, sans-serif" font-weight="900" font-size="46" letter-spacing="8" fill="#FFFFFF">
     KAUSIQ SR
   </text>
 
-  <!-- Laser Divider -->
-  <rect x="260" y="128" width="440" height="2" fill="url(#laserBeam)" rx="1"/>
-  <circle cx="480" cy="129" r="3" fill="#FF2A3A"/>
-
-  <!-- Roles -->
-  <text x="480" y="162" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif" font-weight="600" font-size="13" letter-spacing="4" fill="#E2E4E9">
-    AI/ML ENGINEER &nbsp;•&nbsp; UI/UX DESIGNER &nbsp;•&nbsp; PROMPT ENGINEER
+  <!-- Red Subtitle -->
+  <text x="480" y="136" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-weight="700" font-size="12.5" letter-spacing="3" fill="#E50914">
+    AI/ML ENGINEER &#160;•&#160; UI/UX DESIGNER &#160;•&#160; PROMPT ENGINEER
   </text>
 
-  <!-- Specializations -->
-  <text x="480" y="190" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="10" letter-spacing="3" fill="#9CA3AF">
-    LLMs &nbsp;•&nbsp; GENERATIVE AI &nbsp;•&nbsp; MACHINE LEARNING &nbsp;•&nbsp; COMPUTER VISION
+  <!-- Red Center Node -->
+  <circle cx="480" cy="151" r="2.5" fill="#E50914"/>
+
+  <!-- Bottom Tagline -->
+  <text x="480" y="176" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-weight="600" font-size="11" letter-spacing="2" fill="#9CA3AF">
+    <tspan fill="#E50914">&lt;//&gt;</tspan> LLMs &#160;•&#160; GENERATIVE AI &#160;•&#160; MACHINE LEARNING &#160;•&#160; COMPUTER VISION
   </text>
 </svg>
