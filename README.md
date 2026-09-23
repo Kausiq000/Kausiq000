@@ -1,305 +1,277 @@
 <div align="center">
 
-  <!-- CINEMATIC HEADER BANNER -->
-  <img src="./assets/header.svg" alt="Kausiq SR - Cinematic Title Card" width="100%" />
+  # KAUSIQ SR
 
-  <br/><br/>
+  ### AI/ML Engineer &nbsp;|&nbsp; UI/UX Designer &nbsp;|&nbsp; Prompt Engineer
 
-  <!-- DYNAMIC TYPING SEQUENCE -->
+  Final-Year B.Tech Artificial Intelligence & Machine Learning Student  
+  **SRM Institute of Science and Technology – Ramapuram** • India
+
+  <br/>
+
+  <p align="center">
+    <em>Building intelligent software systems using Artificial Intelligence, Machine Learning, LLMs, Generative AI, and Computer Vision — combining technical development with UI/UX design and prompt engineering.</em>
+  </p>
+
+  <br/>
+
+  <!-- DYNAMIC TYPING BANNER -->
   <a href="https://github.com/Kausiq000">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=3000&pause=1000&color=E50914&center=true&vCenter=true&width=780&lines=AI%2FML+Engineer+%7C+UI%2FUX+Designer+%7C+Prompt+Engineer;Final-Year+AIML+Student+%40+SRM+IST+Ramapuram;LLMs+%E2%80%A2+Generative+AI+%E2%80%A2+Machine+Learning+%E2%80%A2+Computer+Vision;Bridging+Intelligent+AI+Systems+with+Intuitive+Product+Design" alt="Typing Sequence" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=780&lines=AI%2FML+Engineer+%7C+UI%2FUX+Designer+%7C+Prompt+Engineer;Final-Year+AIML+Student+%40+SRM+IST+Ramapuram;LLMs+%E2%80%A2+Generative+AI+%E2%80%A2+Machine+Learning+%E2%80%A2+Computer+Vision;Bridging+Intelligent+AI+Systems+with+Intuitive+Product+Design" alt="Typing Banner" />
   </a>
 
   <br/><br/>
 
-  <!-- QUICK PRODUCTION METADATA BADGES -->
-  <a href="https://www.linkedin.com/in/kausiq-sr-5015942a2"><img src="https://img.shields.io/badge/LinkedIn-Kausiq_SR-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=050507&color=E50914" alt="LinkedIn" /></a>
-  <a href="mailto:kausiqsr@gmail.com"><img src="https://img.shields.io/badge/Email-kausiqsr@gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=050507&color=E50914" alt="Email" /></a>
-  <a href="https://drive.google.com/drive/folders/1NodTsQREZlZgzx7k0xsnhAiiNDsav0Wc"><img src="https://img.shields.io/badge/Resume-Google_Drive-0D1117?style=for-the-badge&logo=googledrive&logoColor=34A853&labelColor=050507&color=E50914" alt="Resume" /></a>
-  <a href="https://www.instagram.com/_.kxusiq._?stkn=d3IzdmE2cnBicXp4"><img src="https://img.shields.io/badge/Instagram-_.kxusiq._-0D1117?style=for-the-badge&logo=instagram&logoColor=E4405F&labelColor=050507&color=E50914" alt="Instagram" /></a>
-
-  <br/><br/>
-
-  <!-- PROFILE INTRODUCTION -->
-  <img src="./assets/kausiq.jpg" alt="Kausiq SR" width="170" style="border-radius: 8px;" />
+  <!-- CONTACT & SOCIAL BUTTONS -->
+  <a href="https://github.com/Kausiq000"><img src="https://img.shields.io/badge/GitHub-Kausiq000-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/kausiq-sr-5015942a2"><img src="https://img.shields.io/badge/LinkedIn-Kausiq_SR-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  &nbsp;
+  <a href="mailto:kausiqsr@gmail.com"><img src="https://img.shields.io/badge/Email-kausiqsr%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  &nbsp;
+  <a href="https://drive.google.com/drive/folders/1NodTsQREZlZgzx7k0xsnhAiiNDsav0Wc"><img src="https://img.shields.io/badge/Resume-Google_Drive-34A853?style=flat-square&logo=googledrive&logoColor=white" alt="Resume" /></a>
+  &nbsp;
+  <a href="https://www.instagram.com/_.kxusiq._?stkn=d3IzdmE2cnBicXp4"><img src="https://img.shields.io/badge/Instagram-_.kxusiq._-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
 
 </div>
 
 <br/>
 
-<img src="./assets/divider.svg" width="100%" />
+---
 
-## 🎬 &nbsp; SCENE 01 &nbsp;::&nbsp; THE STORY
+## About Me
 
-> *"Transforming raw algorithmic intelligence into practical, robust, and beautifully designed digital realities."*
+I am a final-year B.Tech student in Artificial Intelligence and Machine Learning at SRM Institute of Science and Technology – Ramapuram, India.
 
-I am a **final-year Artificial Intelligence and Machine Learning student** at **SRM Institute of Science and Technology – Ramapuram**, passionate about building intelligent and practical technology.
+My work centers on developing intelligent software systems across AI/ML, Large Language Models (LLMs), Generative AI, Prompt Engineering, and Computer Vision. Along with core AI engineering, I integrate UI/UX design thinking using Figma to transform technical concepts into functional, practical, and user-centered digital products.
 
-My interests span **Artificial Intelligence**, **Machine Learning**, **Large Language Models**, **Generative AI**, **Prompt Engineering**, and **UI/UX Design**. I enjoy transforming ideas into functional and robust projects while continuously exploring new AI technologies and creative ways to build better digital experiences.
+---
 
-I am particularly interested in combining **AI engineering** with **strong product thinking**, **visual design**, and **problem solving**.
+## Tech Stack
 
-<br/>
-
-```ini
-[ PRODUCTION LOGS ]
-INSTITUTION     = SRM Institute of Science and Technology – Ramapuram
-DEGREE          = B.Tech in Artificial Intelligence and Machine Learning (AIML)
-ACADEMIC STATUS = Final-Year Student
-LOCATION        = India
-PRIMARY FOCUS   = AI/ML Engineering • UI/UX Design • Prompt Engineering • LLMs
-```
-
-<br/>
-
-<img src="./assets/divider.svg" width="100%" />
-
-## 🛠️ &nbsp; SCENE 02 &nbsp;::&nbsp; THE CRAFT
-
-Organized by production disciplines across the AI and engineering spectrum:
-
-### 🧠 AI & Machine Learning
+### Programming Languages
 <p>
-  <img src="https://img.shields.io/badge/Artificial_Intelligence-0D1117?style=flat-square&logo=openai&logoColor=white&labelColor=050507&color=E50914" alt="AI" />
-  <img src="https://img.shields.io/badge/Machine_Learning-0D1117?style=flat-square&logo=scikitlearn&logoColor=F7931E&labelColor=050507&color=E50914" alt="Machine Learning" />
-  <img src="https://img.shields.io/badge/Natural_Language_Processing-0D1117?style=flat-square&logo=spacy&logoColor=09A3D5&labelColor=050507&color=E50914" alt="NLP" />
-  <img src="https://img.shields.io/badge/Computer_Vision-0D1117?style=flat-square&logo=opencv&logoColor=white&labelColor=050507&color=E50914" alt="Computer Vision" />
-  <img src="https://img.shields.io/badge/Large_Language_Models_(LLMs)-0D1117?style=flat-square&logo=huggingface&logoColor=FFD21E&labelColor=050507&color=E50914" alt="LLMs" />
-  <img src="https://img.shields.io/badge/Generative_AI-0D1117?style=flat-square&logo=sparkles&logoColor=white&labelColor=050507&color=E50914" alt="Generative AI" />
-  <img src="https://img.shields.io/badge/Prompt_Engineering-0D1117?style=flat-square&logo=terminal&logoColor=white&labelColor=050507&color=E50914" alt="Prompt Engineering" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
 </p>
 
-### 🎨 UI/UX & Design
+### AI & Machine Learning
 <p>
-  <img src="https://img.shields.io/badge/UI%2FUX_Design-0D1117?style=flat-square&logo=adobexd&logoColor=FF61F6&labelColor=050507&color=E50914" alt="UI/UX Design" />
-  <img src="https://img.shields.io/badge/Figma-0D1117?style=flat-square&logo=figma&logoColor=F24E1E&labelColor=050507&color=E50914" alt="Figma" />
+  <img src="https://img.shields.io/badge/Artificial_Intelligence-10A37F?style=flat-square&logo=openai&logoColor=white" alt="Artificial Intelligence" />
+  <img src="https://img.shields.io/badge/Machine_Learning-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="Machine Learning" />
+  <img src="https://img.shields.io/badge/NLP-09A3D5?style=flat-square&logo=spacy&logoColor=white" alt="NLP" />
+  <img src="https://img.shields.io/badge/Computer_Vision-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="Computer Vision" />
+  <img src="https://img.shields.io/badge/LLMs-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="LLMs" />
+  <img src="https://img.shields.io/badge/Generative_AI-8E44AD?style=flat-square&logo=sparkles&logoColor=white" alt="Generative AI" />
+  <img src="https://img.shields.io/badge/Prompt_Engineering-34495E?style=flat-square&logo=terminal&logoColor=white" alt="Prompt Engineering" />
 </p>
 
-### 💻 Programming Languages
+### UI / UX & Design
 <p>
-  <img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB&labelColor=050507&color=E50914" alt="Python" />
-  <img src="https://img.shields.io/badge/Java-0D1117?style=flat-square&logo=openjdk&logoColor=ED8B00&labelColor=050507&color=E50914" alt="Java" />
-  <img src="https://img.shields.io/badge/C-0D1117?style=flat-square&logo=c&logoColor=A8B9CC&labelColor=050507&color=E50914" alt="C" />
-  <img src="https://img.shields.io/badge/C++-0D1117?style=flat-square&logo=c%2B%2B&logoColor=00599C&labelColor=050507&color=E50914" alt="C++" />
+  <img src="https://img.shields.io/badge/UI%2FUX_Design-FF61F6?style=flat-square&logo=adobexd&logoColor=white" alt="UI/UX Design" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" />
 </p>
 
-### ⚙️ Development & Backend
+### Web & Backend
 <p>
-  <img src="https://img.shields.io/badge/HTML-0D1117?style=flat-square&logo=html5&logoColor=E34F26&labelColor=050507&color=E50914" alt="HTML" />
-  <img src="https://img.shields.io/badge/CSS-0D1117?style=flat-square&logo=css3&logoColor=1572B6&labelColor=050507&color=E50914" alt="CSS" />
-  <img src="https://img.shields.io/badge/Flask-0D1117?style=flat-square&logo=flask&logoColor=white&labelColor=050507&color=E50914" alt="Flask" />
-  <img src="https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=009688&labelColor=050507&color=E50914" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Web_Development-0D1117?style=flat-square&logo=w3c&logoColor=white&labelColor=050507&color=E50914" alt="Web Development" />
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Web_Development-2C3E50?style=flat-square&logo=w3c&logoColor=white" alt="Web Development" />
 </p>
 
-### 🧰 Tools & Technologies
+### Tools & Technologies
 <p>
-  <img src="https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=F05032&labelColor=050507&color=E50914" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-0D1117?style=flat-square&logo=github&logoColor=white&labelColor=050507&color=E50914" alt="GitHub" />
-  <img src="https://img.shields.io/badge/VS_Code-0D1117?style=flat-square&logo=visualstudiocode&logoColor=007ACC&labelColor=050507&color=E50914" alt="VS Code" />
-  <img src="https://img.shields.io/badge/OpenCV-0D1117?style=flat-square&logo=opencv&logoColor=5C3EE8&labelColor=050507&color=E50914" alt="OpenCV" />
-  <img src="https://img.shields.io/badge/MediaPipe-0D1117?style=flat-square&logo=google&logoColor=00C0FF&labelColor=050507&color=E50914" alt="MediaPipe" />
-  <img src="https://img.shields.io/badge/Postman-0D1117?style=flat-square&logo=postman&logoColor=FF6C37&labelColor=050507&color=E50914" alt="Postman" />
-  <img src="https://img.shields.io/badge/Figma-0D1117?style=flat-square&logo=figma&logoColor=F24E1E&labelColor=050507&color=E50914" alt="Figma" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/MediaPipe-00C0FF?style=flat-square&logo=google&logoColor=white" alt="MediaPipe" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" />
 </p>
 
-<br/>
+---
 
-<img src="./assets/divider.svg" width="100%" />
-
-## 🎥 &nbsp; SCENE 03 &nbsp;::&nbsp; FEATURED PROJECTS
-
-Presented as cinematic title cards showcasing engineered solutions, intelligent systems, and interactive architectures:
+## Featured Projects
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3><code>01 // THIRDEYE</code></h3>
-      <p><strong>Assistive technology designed to support visually impaired users.</strong></p>
+      <h3>ThirdEye</h3>
+      <p>Assistive technology designed to support visually impaired users.</p>
       <p>
-        <img src="https://img.shields.io/badge/STATUS-Patent_Filed_%2F_Under_Review-E50914?style=flat-square" alt="Patent Status" /><br/>
-        <img src="https://img.shields.io/badge/DOMAIN-AI_%E2%80%A2_Computer_Vision_%E2%80%A2_Assistive_Tech-0D1117?style=flat-square&color=30363D" alt="Domain" />
+        <img src="https://img.shields.io/badge/Status-Patent_Filed_%2F_Under_Review-388BFD?style=flat-square" alt="Status" /><br/>
+        <sub><strong>Focus:</strong> AI • Computer Vision • Assistive Technology</sub>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3><code>02 // NETRA WEBSITE</code></h3>
-      <p><strong>Website development project.</strong></p>
+      <h3>Netra Website</h3>
+      <p>Website development project.</p>
       <p>
-        <img src="https://img.shields.io/badge/DOMAIN-Web_%E2%80%A2_Digital_Experience-0D1117?style=flat-square&color=30363D" alt="Domain" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><code>03 // AI PLACEMENT ASSISTANT</code></h3>
-      <p><strong>AI-powered placement preparation assistant engineered to streamline candidate readiness and skill assessment.</strong></p>
-      <p>
-        <img src="https://img.shields.io/badge/DOMAIN-AI_%E2%80%A2_NLP_%E2%80%A2_Generative_AI-0D1117?style=flat-square&color=30363D" alt="Domain" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><code>04 // SMART FACTORY WORKFORCE AI</code></h3>
-      <p><strong>AI-driven workforce allocation and operational management system designed for intelligent, automated manufacturing environments.</strong></p>
-      <p>
-        <img src="https://img.shields.io/badge/DOMAIN-AI_%E2%80%A2_Optimization_%E2%80%A2_Smart_Factories-0D1117?style=flat-square&color=30363D" alt="Domain" />
+        <sub><strong>Focus:</strong> Web Development • UI/UX</sub>
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><code>05 // RESUME SCREENING SYSTEM</code></h3>
-      <p><strong>Automated resume parsing and candidate evaluation pipeline utilizing natural language processing and machine learning models.</strong></p>
+      <h3>AI Powered Placement Preparation Assistant</h3>
+      <p>AI-powered placement preparation project.</p>
       <p>
-        <img src="https://img.shields.io/badge/DOMAIN-NLP_%E2%80%A2_Machine_Learning_%E2%80%A2_Information_Extraction-0D1117?style=flat-square&color=30363D" alt="Domain" />
+        <sub><strong>Focus:</strong> AI • NLP • Generative AI</sub>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3><code>06 // HAND GESTURE CONTROL</code></h3>
-      <p><strong>Real-time touchless human-computer interaction interface tracking hand landmarks and gesture commands via computer vision.</strong></p>
+      <h3>AI Workforce Allocation & Management for Smart Factories</h3>
+      <p>AI-based workforce allocation and management project for smart factory environments.</p>
       <p>
-        <img src="https://img.shields.io/badge/TECH-OpenCV_%E2%80%A2_MediaPipe_%E2%80%A2_Python-0D1117?style=flat-square&color=30363D" alt="Tech" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><code>07 // CURRENCY CONVERTER</code></h3>
-      <p><strong>Currency conversion project involving Java and Python.</strong></p>
-      <p>
-        <img src="https://img.shields.io/badge/TECH-Java_%E2%80%A2_Python_Backend-0D1117?style=flat-square&color=30363D" alt="Tech" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><code>08 // PHARMACY INVENTORY SYSTEM</code></h3>
-      <p><strong>Java + SQL based pharmacy inventory management system.</strong></p>
-      <p>
-        <img src="https://img.shields.io/badge/TECH-Java_%E2%80%A2_SQL-0D1117?style=flat-square&color=30363D" alt="Tech" />
+        <sub><strong>Focus:</strong> AI • Optimization • Smart Systems</sub>
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><code>09 // IMAGE FILTER APPLICATION</code></h3>
-      <p><strong>Interactive digital image processing application performing custom spatial filtering, transformations, and visual kernels.</strong></p>
+      <h3>Resume Screening System</h3>
+      <p>Resume screening project using NLP and Machine Learning.</p>
       <p>
-        <img src="https://img.shields.io/badge/TECH-Python_%E2%80%A2_OpenCV-0D1117?style=flat-square&color=30363D" alt="Tech" />
+        <sub><strong>Focus:</strong> NLP • Machine Learning</sub>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3><code>10 // POWER OUTAGE IMPACT PREDICTION</code></h3>
-      <p><strong>Machine learning project for predicting the impact of power outages.</strong></p>
+      <h3>Hand Gesture Control</h3>
+      <p>Hand gesture control project using OpenCV and MediaPipe.</p>
       <p>
-        <img src="https://img.shields.io/badge/TECH-Machine_Learning_%E2%80%A2_Python-0D1117?style=flat-square&color=30363D" alt="Tech" />
+        <sub><strong>Focus:</strong> Computer Vision • Python • Human-Computer Interaction</sub>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Currency Converter</h3>
+      <p>Currency conversion project involving Java and Python.</p>
+      <p>
+        <sub><strong>Focus:</strong> Software Development • Java • Python</sub>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Pharmacy Inventory System</h3>
+      <p>Java + SQL based pharmacy inventory management system.</p>
+      <p>
+        <sub><strong>Focus:</strong> Enterprise Systems • Java • SQL</sub>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Image Filter Application</h3>
+      <p>Image processing application using OpenCV.</p>
+      <p>
+        <sub><strong>Focus:</strong> Image Processing • OpenCV • Python</sub>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Power Outage Impact Prediction System</h3>
+      <p>Machine learning project for predicting the impact of power outages.</p>
+      <p>
+        <sub><strong>Focus:</strong> Machine Learning • Predictive Analytics</sub>
       </p>
     </td>
   </tr>
 </table>
 
-<br/>
+---
 
-<img src="./assets/divider.svg" width="100%" />
-
-## 🏆 &nbsp; SCENE 04 &nbsp;::&nbsp; THE MILESTONES
-
-Milestones, research and intellectual property:
+## Achievements & Research
 
 <table width="100%">
   <tr>
     <td width="33%" align="center" valign="top">
       <br/>
-      <img src="https://img.shields.io/badge/AWARD-RUNNER--UP-E50914?style=for-the-badge&logo=target&logoColor=white" alt="Award Badge" /><br/><br/>
+      <img src="https://img.shields.io/badge/Hackathon-Runner--up-238636?style=flat-square" alt="Runner-up" /><br/><br/>
       <strong>NXTGEN Hackathon</strong><br/>
-      <sub>Recognized for innovative engineering and practical technological execution.</sub>
+      <sub>Runner-up</sub>
       <br/><br/>
     </td>
     <td width="34%" align="center" valign="top">
       <br/>
-      <img src="https://img.shields.io/badge/PATENT-FILED_%2F_UNDER_REVIEW-E50914?style=for-the-badge&logo=shield&logoColor=white" alt="Patent Badge" /><br/><br/>
-      <strong>ThirdEye Assistive Technology</strong><br/>
-      <sub>Intellectual property filed for assistive vision systems supporting visually impaired users.</sub>
+      <img src="https://img.shields.io/badge/Patent-Under_Review-388BFD?style=flat-square" alt="Patent" /><br/><br/>
+      <strong>ThirdEye</strong><br/>
+      <sub>Patent filed / under review</sub>
       <br/><br/>
     </td>
     <td width="33%" align="center" valign="top">
       <br/>
-      <img src="https://img.shields.io/badge/RESEARCH-PUBLICATION-E50914?style=for-the-badge&logo=book&logoColor=white" alt="Publication Badge" /><br/><br/>
+      <img src="https://img.shields.io/badge/Research-Published-8957E5?style=flat-square" alt="Research" /><br/><br/>
       <strong>Research Publication</strong><br/>
-      <em>"A Fully Offline, Multimodal Edge AI Wearable for the Visually Impaired"</em><br/>
-      <sub>FMDB Transactions on Sustainable Biomedical Engineering, 2026<br/>
+      <sub><em>"A Fully Offline, Multimodal Edge AI Wearable for the Visually Impaired"</em><br/>
+      <strong>FMDB Transactions on Sustainable Biomedical Engineering</strong> (2026)<br/>
       DOI: 10.69888/FTSBE.2026.000671</sub>
       <br/><br/>
     </td>
   </tr>
 </table>
 
-<br/>
+---
 
-<img src="./assets/divider.svg" width="100%" />
-
-## 📊 &nbsp; SCENE 05 &nbsp;::&nbsp; THE DASHBOARD
-
-GitHub activity and contribution analytics:
+## GitHub Activity
 
 <div align="center">
   <table border="0" cellspacing="0" cellpadding="0">
     <tr align="center">
       <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=Kausiq000&show_icons=true&theme=transparent&title_color=E50914&text_color=CCCCCC&icon_color=E50914&bg_color=0D1117&border_color=30363D&hide_border=false" alt="Kausiq000 GitHub Stats" height="175" />
+        <img src="https://github-readme-stats.vercel.app/api?username=Kausiq000&show_icons=true&theme=github_dark&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF&bg_color=0D1117&border_color=30363D&hide_border=false" alt="Kausiq000 GitHub Stats" height="175" />
       </td>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kausiq000&layout=compact&theme=transparent&title_color=E50914&text_color=CCCCCC&bg_color=0D1117&border_color=30363D" alt="Kausiq000 Top Languages" height="175" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kausiq000&layout=compact&theme=github_dark&title_color=58A6FF&text_color=C9D1D9&bg_color=0D1117&border_color=30363D" alt="Kausiq000 Top Languages" height="175" />
       </td>
     </tr>
   </table>
 
   <br/>
 
-  <img src="https://streak-stats.demolab.com/?user=Kausiq000&theme=dark&background=0D1117&border=30363D&stroke=E50914&ring=E50914&fire=E50914&currStreakNum=FFFFFF&sideNums=CCCCCC&sideLabels=888888&dates=888888" alt="Kausiq000 GitHub Streak" width="85%" />
+  <img src="https://streak-stats.demolab.com/?user=Kausiq000&theme=github-dark-blue&background=0D1117&border=30363D&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakNum=FFFFFF&sideNums=C9D1D9&sideLabels=8B949E&dates=8B949E" alt="Kausiq000 GitHub Streak" width="85%" />
 </div>
 
-<br/>
+---
 
-<img src="./assets/divider.svg" width="100%" />
+## Currently Exploring
 
-## 🔭 &nbsp; SCENE 06 &nbsp;::&nbsp; CURRENTLY EXPLORING
+- **LLMs & Autonomous Agents** — Exploring prompting, context grounding, agent workflows, and LLM-based applications.
+- **Generative AI & Multimodal Systems** — Experimenting with text, vision, and multimodal AI applications.
+- **Computer Vision & Assistive AI** — Exploring real-time computer vision and assistive technology applications.
+- **UI/UX & Product Development** — Designing user-focused interfaces and connecting design with functional software.
 
-Current learning and exploration areas:
+---
 
-- 🔬 **Large Language Models & Autonomous Agents** — Studying advanced prompting architectures, context grounding, and multi-step reasoning systems.
-- ⚡ **Generative AI & Multimodal Synthesis** — Experimenting with text, vision, and real-time inference models to solve practical domain challenges.
-- 👁️ **Computer Vision & Assistive Edge AI** — Expanding real-time perception pipelines for accessibility technologies.
-- 🎨 **Figma to Production Synergy** — Designing clean, high-fidelity UI/UX systems that intuitively bridge complex AI functionality with end users.
-
-<br/>
-
-<img src="./assets/divider.svg" width="100%" />
-
-## 🎞️ &nbsp; SCENE 07 &nbsp;::&nbsp; END CREDITS
+## Let's Connect
 
 <div align="center">
 
-  <img src="./assets/footer.svg" alt="End Credits" width="100%" />
-
-  <br/><br/>
-
-  <!-- OFFICIAL CONNECT CHANNELS -->
-  <a href="https://www.linkedin.com/in/kausiq-sr-5015942a2" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
+  <a href="https://github.com/Kausiq000" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   &nbsp;
-  <a href="https://drive.google.com/drive/folders/1NodTsQREZlZgzx7k0xsnhAiiNDsav0Wc" target="_blank">
-    <img src="https://img.shields.io/badge/Resume-0F9D58?style=for-the-badge&logo=googledrive&logoColor=white" alt="Resume Drive" />
+  <a href="https://www.linkedin.com/in/kausiq-sr-5015942a2" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;
   <a href="mailto:kausiqsr@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Send Email" />
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;
+  <a href="https://drive.google.com/drive/folders/1NodTsQREZlZgzx7k0xsnhAiiNDsav0Wc" target="_blank">
+    <img src="https://img.shields.io/badge/Resume-34A853?style=for-the-badge&logo=googledrive&logoColor=white" alt="Resume" />
   </a>
   &nbsp;
   <a href="https://www.instagram.com/_.kxusiq._?stkn=d3IzdmE2cnBicXp4" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram Profile" />
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
 
   <br/><br/>
 
-  <sub>© 2026 KAUSIQ SR &nbsp;•&nbsp; AI/ML ENGINEER &nbsp;•&nbsp; BUILDING INTELLIGENT SYSTEMS</sub>
+  <sub>© 2026 Kausiq SR • Final-Year B.Tech AIML Student • SRM Institute of Science and Technology – Ramapuram</sub>
 
 </div>
