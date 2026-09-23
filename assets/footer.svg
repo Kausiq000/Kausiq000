@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" width="100%" height="100%">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050507"/>
+      <stop offset="50%" stop-color="#0c0d12"/>
+      <stop offset="100%" stop-color="#050507"/>
+    </linearGradient>
+
+    <linearGradient id="footerRedGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E50914" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#E50914" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#E50914" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .credit-tag {
+      font-family: 'SF Mono', 'Courier New', monospace;
+      font-size: 11px;
+      letter-spacing: 5px;
+      fill: #FF3344;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .credit-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+      font-weight: 800;
+      font-size: 32px;
+      letter-spacing: 10px;
+      fill: #FFFFFF;
+      text-transform: uppercase;
+    }
+    .credit-desc {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 13px;
+      letter-spacing: 4px;
+      fill: #B0B5C0;
+      text-transform: uppercase;
+    }
+    .credit-sub {
+      font-family: 'SF Mono', 'Courier New', monospace;
+      font-size: 10.5px;
+      letter-spacing: 3px;
+      fill: #6E7681;
+      text-transform: uppercase;
+    }
+    .frame-corner {
+      stroke: #E50914;
+      stroke-width: 1.5;
+      stroke-opacity: 0.5;
+    }
+  </style>
+
+  <!-- Container -->
+  <rect x="2" y="2" width="956" height="216" rx="8" fill="url(#footerBg)" stroke="#1C1F26" stroke-width="1.5"/>
+
+  <!-- Corner marks -->
+  <g class="frame-corner">
+    <path d="M 24 34 L 24 24 L 34 24"/>
+    <path d="M 936 34 L 936 24 L 926 24"/>
+    <path d="M 24 186 L 24 196 L 34 196"/>
+    <path d="M 936 186 L 936 196 L 926 196"/>
+  </g>
+
+  <!-- Content -->
+  <text x="480" y="48" text-anchor="middle" class="credit-tag">// END CREDITS //</text>
+
+  <text x="480" y="94" text-anchor="middle" class="credit-title">KAUSIQ SR</text>
+
+  <rect x="340" y="112" width="280" height="1.5" fill="url(#footerRedGlow)"/>
+
+  <text x="480" y="142" text-anchor="middle" class="credit-desc">
+    AI/ML ENGINEER &nbsp;•&nbsp; UI/UX DESIGNER &nbsp;•&nbsp; PROMPT ENGINEER
+  </text>
+
+  <text x="480" y="172" text-anchor="middle" class="credit-sub">
+    BUILDING INTELLIGENT SYSTEMS — ONE ARCHITECTURE AT A TIME
+  </text>
+
+  <text x="480" y="196" text-anchor="middle" class="credit-sub" font-size="9px" fill="#484F58" letter-spacing="4px">
+    SRM INSTITUTE OF SCIENCE AND TECHNOLOGY – RAMAPURAM • CHENNAI, INDIA
+  </text>
+</svg>
