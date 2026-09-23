@@ -1,25 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 30" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 26" width="100%" height="100%">
   <defs>
     <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#E50914" stop-opacity="0"/>
-      <stop offset="20%" stop-color="#30363D" stop-opacity="0.4"/>
-      <stop offset="45%" stop-color="#E50914" stop-opacity="0.8"/>
-      <stop offset="50%" stop-color="#FF3344" stop-opacity="1"/>
-      <stop offset="55%" stop-color="#E50914" stop-opacity="0.8"/>
-      <stop offset="80%" stop-color="#30363D" stop-opacity="0.4"/>
+      <stop offset="25%" stop-color="#2A2A2A" stop-opacity="0.6"/>
+      <stop offset="48%" stop-color="#E50914" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#FF2A3A" stop-opacity="1"/>
+      <stop offset="52%" stop-color="#E50914" stop-opacity="0.9"/>
+      <stop offset="75%" stop-color="#2A2A2A" stop-opacity="0.6"/>
       <stop offset="100%" stop-color="#E50914" stop-opacity="0"/>
     </linearGradient>
   </defs>
 
   <!-- Base Line -->
-  <line x1="60" y1="15" x2="900" y2="15" stroke="url(#dividerGrad)" stroke-width="1.5"/>
+  <line x1="40" y1="13" x2="920" y2="13" stroke="url(#dividerGrad)" stroke-width="1.2"/>
 
-  <!-- Center Film Frame Marker -->
-  <g transform="translate(480, 15)">
-    <polygon points="0,-6 6,0 0,6 -6,0" fill="#E50914"/>
-    <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
-    <!-- Flanking Hash Marks -->
-    <line x1="-18" y1="-4" x2="-18" y2="4" stroke="#8E929B" stroke-width="1"/>
-    <line x1="18" y1="-4" x2="18" y2="4" stroke="#8E929B" stroke-width="1"/>
+  <!-- Center Technical Node -->
+  <g transform="translate(480, 13)">
+    <polygon points="0,-5 5,0 0,5 -5,0" fill="#E50914"/>
+    <circle cx="0" cy="0" r="1.8" fill="#FFFFFF"/>
+    <!-- Flanking Grid Marks -->
+    <line x1="-16" y1="-3" x2="-16" y2="3" stroke="#6B7280" stroke-width="1"/>
+    <line x1="16" y1="-3" x2="16" y2="3" stroke="#6B7280" stroke-width="1"/>
   </g>
 </svg>

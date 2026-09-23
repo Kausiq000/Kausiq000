@@ -1,130 +1,130 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" width="100%" height="100%">
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#08080a"/>
-      <stop offset="50%" stop-color="#0e0f14"/>
+      <stop offset="0%" stop-color="#08080A"/>
+      <stop offset="50%" stop-color="#0E0F14"/>
       <stop offset="100%" stop-color="#050507"/>
     </linearGradient>
 
-    <!-- Cinematic Crimson Glow -->
-    <linearGradient id="redGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Technical Crimson Accent Glow -->
+    <linearGradient id="redBeam" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#E50914" stop-opacity="0"/>
-      <stop offset="25%" stop-color="#E50914" stop-opacity="0.8"/>
-      <stop offset="50%" stop-color="#FF3344" stop-opacity="1"/>
-      <stop offset="75%" stop-color="#E50914" stop-opacity="0.8"/>
+      <stop offset="20%" stop-color="#E50914" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#FF2A3A" stop-opacity="1"/>
+      <stop offset="80%" stop-color="#E50914" stop-opacity="0.8"/>
       <stop offset="100%" stop-color="#E50914" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- Subtle Red Radial -->
+    <!-- Subtle Center Radial Glow -->
     <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#E50914" stop-opacity="0.18"/>
-      <stop offset="60%" stop-color="#E50914" stop-opacity="0.03"/>
+      <stop offset="0%" stop-color="#E50914" stop-opacity="0.16"/>
+      <stop offset="65%" stop-color="#E50914" stop-opacity="0.02"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Letterbox Border Gradient -->
+    <!-- Border Accent Line -->
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#333333" stop-opacity="0.2"/>
-      <stop offset="50%" stop-color="#E50914" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#333333" stop-opacity="0.2"/>
+      <stop offset="0%" stop-color="#2A2A2A" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#E50914" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#2A2A2A" stop-opacity="0.3"/>
     </linearGradient>
   </defs>
 
   <style>
-    .meta-text {
-      font-family: 'SF Mono', 'Courier New', 'Consolas', monospace;
+    .meta-code {
+      font-family: 'SF Mono', 'Fira Code', 'Consolas', 'Courier New', monospace;
       font-size: 11px;
       letter-spacing: 4px;
       fill: #8E929B;
       text-transform: uppercase;
     }
-    .cinema-red {
-      fill: #FF2E3B;
+    .red-accent {
+      fill: #FF2A3A;
       font-weight: 700;
     }
-    .main-title {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+    .hero-name {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif;
       font-weight: 900;
-      font-size: 58px;
-      letter-spacing: 14px;
+      font-size: 54px;
+      letter-spacing: 12px;
       fill: #FFFFFF;
       text-transform: uppercase;
-      filter: drop-shadow(0 4px 16px rgba(229, 9, 20, 0.35));
+      filter: drop-shadow(0 4px 18px rgba(229, 9, 20, 0.4));
     }
-    .role-text {
+    .hero-role {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
       font-weight: 600;
-      font-size: 14px;
-      letter-spacing: 6px;
+      font-size: 13.5px;
+      letter-spacing: 5px;
       fill: #E2E4E9;
       text-transform: uppercase;
     }
-    .sub-role {
-      font-family: 'SF Mono', 'Courier New', monospace;
-      font-size: 11.5px;
-      letter-spacing: 3.5px;
-      fill: #9E2A2B;
-      font-weight: 600;
+    .hero-tags {
+      font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+      font-size: 11px;
+      letter-spacing: 3px;
+      fill: #9CA3AF;
+      font-weight: 500;
       text-transform: uppercase;
     }
-    .dots {
-      fill: #FF3344;
-      font-size: 14px;
+    .tag-sep {
+      fill: #E50914;
+      font-size: 12px;
     }
-    .frame-mark {
+    .tech-mark {
       stroke: #E50914;
       stroke-width: 1.5;
-      stroke-opacity: 0.6;
+      stroke-opacity: 0.7;
     }
   </style>
 
-  <!-- Cinema Card Container -->
-  <rect x="2" y="2" width="956" height="316" rx="8" fill="url(#bgGrad)" stroke="#1C1F26" stroke-width="1.5"/>
+  <!-- Container Box -->
+  <rect x="2" y="2" width="956" height="296" rx="8" fill="url(#bgGrad)" stroke="#2A2A2A" stroke-width="1.5"/>
 
-  <!-- Radial Atmospheric Glow Behind Name -->
-  <ellipse cx="480" cy="155" rx="340" ry="100" fill="url(#centerGlow)"/>
+  <!-- Radial Glow Behind Name -->
+  <ellipse cx="480" cy="145" rx="340" ry="90" fill="url(#centerGlow)"/>
 
-  <!-- Letterbox Framing Accent Lines -->
-  <line x1="40" y1="26" x2="920" y2="26" stroke="url(#borderGrad)" stroke-width="1"/>
-  <line x1="40" y1="294" x2="920" y2="294" stroke="url(#borderGrad)" stroke-width="1"/>
+  <!-- Top and Bottom Technical Border Accents -->
+  <line x1="40" y1="24" x2="920" y2="24" stroke="url(#borderGrad)" stroke-width="1"/>
+  <line x1="40" y1="276" x2="920" y2="276" stroke="url(#borderGrad)" stroke-width="1"/>
 
-  <!-- Cinema Frame Registration Corners -->
-  <g class="frame-mark">
+  <!-- Corner Brackets -->
+  <g class="tech-mark">
     <!-- Top-Left -->
-    <path d="M 28 38 L 28 26 L 40 26"/>
+    <path d="M 24 36 L 24 24 L 36 24"/>
     <!-- Top-Right -->
-    <path d="M 932 38 L 932 26 L 920 26"/>
+    <path d="M 936 36 L 936 24 L 924 24"/>
     <!-- Bottom-Left -->
-    <path d="M 28 282 L 28 294 L 40 294"/>
+    <path d="M 24 264 L 24 276 L 36 276"/>
     <!-- Bottom-Right -->
-    <path d="M 932 282 L 932 294 L 920 294"/>
+    <path d="M 936 264 L 936 276 L 924 276"/>
   </g>
 
-  <!-- Top Metadata Reel Header -->
-  <text x="480" y="58" text-anchor="middle" class="meta-text">
-    <tspan class="cinema-red">REC ●</tspan> SCENE 01 / FRAME 24 FPS &nbsp;&nbsp;|&nbsp;&nbsp; AIML PORTFOLIO &nbsp;&nbsp;|&nbsp;&nbsp; SOUND ON
+  <!-- Top Metadata Header -->
+  <text x="480" y="54" text-anchor="middle" class="meta-code">
+    <tspan class="red-accent">// SYSTEM: ACTIVE</tspan> &nbsp;&nbsp;|&nbsp;&nbsp; KAUSIQ000.DEV &nbsp;&nbsp;|&nbsp;&nbsp; AI/ML ENGINEERING
   </text>
 
-  <!-- Main Hero Title -->
-  <text x="480" y="148" text-anchor="middle" class="main-title">KAUSIQ SR</text>
+  <!-- Hero Name -->
+  <text x="480" y="138" text-anchor="middle" class="hero-name">KAUSIQ SR</text>
 
-  <!-- Cinematic Red Beam Separator -->
-  <rect x="240" y="172" width="480" height="2" fill="url(#redGlow)" rx="1"/>
-  <circle cx="480" cy="173" r="3.5" fill="#FF3344"/>
+  <!-- Red Laser Divider -->
+  <rect x="260" y="160" width="440" height="2" fill="url(#redBeam)" rx="1"/>
+  <circle cx="480" cy="161" r="3.5" fill="#FF2A3A"/>
 
-  <!-- Primary Roles -->
-  <text x="480" y="214" text-anchor="middle" class="role-text">
-    AI/ML ENGINEER &nbsp;<tspan class="dots">•</tspan>&nbsp; UI/UX DESIGNER &nbsp;<tspan class="dots">•</tspan>&nbsp; PROMPT ENGINEER
+  <!-- Core Professional Roles -->
+  <text x="480" y="200" text-anchor="middle" class="hero-role">
+    AI/ML ENGINEER &nbsp;<tspan class="red-accent">•</tspan>&nbsp; UI/UX DESIGNER &nbsp;<tspan class="red-accent">•</tspan>&nbsp; PROMPT ENGINEER
   </text>
 
-  <!-- Secondary Specializations -->
-  <text x="480" y="250" text-anchor="middle" class="sub-role" fill="#D63031">
-    <tspan fill="#A0A5B0">LLMs</tspan> &nbsp;•&nbsp; <tspan fill="#A0A5B0">GENERATIVE AI</tspan> &nbsp;•&nbsp; <tspan fill="#A0A5B0">MACHINE LEARNING</tspan> &nbsp;•&nbsp; <tspan fill="#A0A5B0">COMPUTER VISION</tspan>
+  <!-- Technical Specializations -->
+  <text x="480" y="234" text-anchor="middle" class="hero-tags">
+    LLMs &nbsp;<tspan class="tag-sep">•</tspan>&nbsp; GENERATIVE AI &nbsp;<tspan class="tag-sep">•</tspan>&nbsp; MACHINE LEARNING &nbsp;<tspan class="tag-sep">•</tspan>&nbsp; COMPUTER VISION
   </text>
 
-  <!-- Bottom Strip Label -->
-  <text x="480" y="280" text-anchor="middle" class="meta-text" font-size="9.5px" fill="#585D69" letter-spacing="5px">
+  <!-- Bottom Academic Affiliation -->
+  <text x="480" y="262" text-anchor="middle" class="meta-code" font-size="9.5px" fill="#6B7280" letter-spacing="4px">
     SRM INSTITUTE OF SCIENCE AND TECHNOLOGY — RAMAPURAM
   </text>
 </svg>
