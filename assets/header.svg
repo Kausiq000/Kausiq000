@@ -1,130 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" width="100%" height="100%">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#08080A"/>
-      <stop offset="50%" stop-color="#0E0F14"/>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050507"/>
+      <stop offset="50%" stop-color="#0C0D12"/>
       <stop offset="100%" stop-color="#050507"/>
     </linearGradient>
-
-    <!-- Technical Crimson Accent Glow -->
-    <linearGradient id="redBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="laserBeam" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#E50914" stop-opacity="0"/>
-      <stop offset="20%" stop-color="#E50914" stop-opacity="0.8"/>
+      <stop offset="25%" stop-color="#E50914" stop-opacity="0.8"/>
       <stop offset="50%" stop-color="#FF2A3A" stop-opacity="1"/>
-      <stop offset="80%" stop-color="#E50914" stop-opacity="0.8"/>
+      <stop offset="75%" stop-color="#E50914" stop-opacity="0.8"/>
       <stop offset="100%" stop-color="#E50914" stop-opacity="0"/>
     </linearGradient>
-
-    <!-- Subtle Center Radial Glow -->
     <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#E50914" stop-opacity="0.16"/>
-      <stop offset="65%" stop-color="#E50914" stop-opacity="0.02"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#E50914" stop-opacity="0.18"/>
+      <stop offset="70%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
-
-    <!-- Border Accent Line -->
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2A2A2A" stop-opacity="0.3"/>
-      <stop offset="50%" stop-color="#E50914" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#2A2A2A" stop-opacity="0.3"/>
-    </linearGradient>
   </defs>
 
-  <style>
-    .meta-code {
-      font-family: 'SF Mono', 'Fira Code', 'Consolas', 'Courier New', monospace;
-      font-size: 11px;
-      letter-spacing: 4px;
-      fill: #8E929B;
-      text-transform: uppercase;
-    }
-    .red-accent {
-      fill: #FF2A3A;
-      font-weight: 700;
-    }
-    .hero-name {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif;
-      font-weight: 900;
-      font-size: 54px;
-      letter-spacing: 12px;
-      fill: #FFFFFF;
-      text-transform: uppercase;
-      filter: drop-shadow(0 4px 18px rgba(229, 9, 20, 0.4));
-    }
-    .hero-role {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
-      font-weight: 600;
-      font-size: 13.5px;
-      letter-spacing: 5px;
-      fill: #E2E4E9;
-      text-transform: uppercase;
-    }
-    .hero-tags {
-      font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-      font-size: 11px;
-      letter-spacing: 3px;
-      fill: #9CA3AF;
-      font-weight: 500;
-      text-transform: uppercase;
-    }
-    .tag-sep {
-      fill: #E50914;
-      font-size: 12px;
-    }
-    .tech-mark {
-      stroke: #E50914;
-      stroke-width: 1.5;
-      stroke-opacity: 0.7;
-    }
-  </style>
+  <!-- Container -->
+  <rect x="2" y="2" width="956" height="216" rx="8" fill="url(#headerGrad)" stroke="#2A2A2A" stroke-width="1.5"/>
+  <ellipse cx="480" cy="110" rx="350" ry="80" fill="url(#centerGlow)"/>
 
-  <!-- Container Box -->
-  <rect x="2" y="2" width="956" height="296" rx="8" fill="url(#bgGrad)" stroke="#2A2A2A" stroke-width="1.5"/>
+  <!-- Technical Corner Brackets -->
+  <path d="M 20 30 L 20 20 L 30 20" stroke="#E50914" stroke-width="1.5" fill="none"/>
+  <path d="M 940 30 L 940 20 L 930 20" stroke="#E50914" stroke-width="1.5" fill="none"/>
+  <path d="M 20 190 L 20 200 L 30 200" stroke="#E50914" stroke-width="1.5" fill="none"/>
+  <path d="M 940 190 L 940 200 L 930 200" stroke="#E50914" stroke-width="1.5" fill="none"/>
 
-  <!-- Radial Glow Behind Name -->
-  <ellipse cx="480" cy="145" rx="340" ry="90" fill="url(#centerGlow)"/>
-
-  <!-- Top and Bottom Technical Border Accents -->
-  <line x1="40" y1="24" x2="920" y2="24" stroke="url(#borderGrad)" stroke-width="1"/>
-  <line x1="40" y1="276" x2="920" y2="276" stroke="url(#borderGrad)" stroke-width="1"/>
-
-  <!-- Corner Brackets -->
-  <g class="tech-mark">
-    <!-- Top-Left -->
-    <path d="M 24 36 L 24 24 L 36 24"/>
-    <!-- Top-Right -->
-    <path d="M 936 36 L 936 24 L 924 24"/>
-    <!-- Bottom-Left -->
-    <path d="M 24 264 L 24 276 L 36 276"/>
-    <!-- Bottom-Right -->
-    <path d="M 936 264 L 936 276 L 924 276"/>
-  </g>
-
-  <!-- Top Metadata Header -->
-  <text x="480" y="54" text-anchor="middle" class="meta-code">
-    <tspan class="red-accent">// SYSTEM: ACTIVE</tspan> &nbsp;&nbsp;|&nbsp;&nbsp; KAUSIQ000.DEV &nbsp;&nbsp;|&nbsp;&nbsp; AI/ML ENGINEERING
+  <!-- Top Metadata -->
+  <text x="480" y="44" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="11" font-weight="600" letter-spacing="4" fill="#8E929B">
+    <tspan fill="#FF2A3A">// SYSTEM: ACTIVE</tspan> &nbsp;|&nbsp; PORTFOLIO &nbsp;|&nbsp; AIML ARCHITECTURE
   </text>
 
-  <!-- Hero Name -->
-  <text x="480" y="138" text-anchor="middle" class="hero-name">KAUSIQ SR</text>
-
-  <!-- Red Laser Divider -->
-  <rect x="260" y="160" width="440" height="2" fill="url(#redBeam)" rx="1"/>
-  <circle cx="480" cy="161" r="3.5" fill="#FF2A3A"/>
-
-  <!-- Core Professional Roles -->
-  <text x="480" y="200" text-anchor="middle" class="hero-role">
-    AI/ML ENGINEER &nbsp;<tspan class="red-accent">•</tspan>&nbsp; UI/UX DESIGNER &nbsp;<tspan class="red-accent">•</tspan>&nbsp; PROMPT ENGINEER
+  <!-- Main Name -->
+  <text x="480" y="112" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Arial, sans-serif" font-weight="900" font-size="52" letter-spacing="12" fill="#FFFFFF">
+    KAUSIQ SR
   </text>
 
-  <!-- Technical Specializations -->
-  <text x="480" y="234" text-anchor="middle" class="hero-tags">
-    LLMs &nbsp;<tspan class="tag-sep">•</tspan>&nbsp; GENERATIVE AI &nbsp;<tspan class="tag-sep">•</tspan>&nbsp; MACHINE LEARNING &nbsp;<tspan class="tag-sep">•</tspan>&nbsp; COMPUTER VISION
+  <!-- Laser Divider -->
+  <rect x="260" y="128" width="440" height="2" fill="url(#laserBeam)" rx="1"/>
+  <circle cx="480" cy="129" r="3" fill="#FF2A3A"/>
+
+  <!-- Roles -->
+  <text x="480" y="162" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif" font-weight="600" font-size="13" letter-spacing="4" fill="#E2E4E9">
+    AI/ML ENGINEER &nbsp;•&nbsp; UI/UX DESIGNER &nbsp;•&nbsp; PROMPT ENGINEER
   </text>
 
-  <!-- Bottom Academic Affiliation -->
-  <text x="480" y="262" text-anchor="middle" class="meta-code" font-size="9.5px" fill="#6B7280" letter-spacing="4px">
-    SRM INSTITUTE OF SCIENCE AND TECHNOLOGY — RAMAPURAM
+  <!-- Specializations -->
+  <text x="480" y="190" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="10" letter-spacing="3" fill="#9CA3AF">
+    LLMs &nbsp;•&nbsp; GENERATIVE AI &nbsp;•&nbsp; MACHINE LEARNING &nbsp;•&nbsp; COMPUTER VISION
   </text>
 </svg>

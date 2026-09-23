@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 26" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 24" width="100%" height="100%">
   <defs>
-    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="divGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#E50914" stop-opacity="0"/>
       <stop offset="25%" stop-color="#2A2A2A" stop-opacity="0.6"/>
       <stop offset="48%" stop-color="#E50914" stop-opacity="0.9"/>
@@ -11,15 +11,14 @@
     </linearGradient>
   </defs>
 
-  <!-- Base Line -->
-  <line x1="40" y1="13" x2="920" y2="13" stroke="url(#dividerGrad)" stroke-width="1.2"/>
+  <!-- Line -->
+  <line x1="30" y1="12" x2="930" y2="12" stroke="url(#divGrad)" stroke-width="1.2"/>
 
-  <!-- Center Technical Node -->
-  <g transform="translate(480, 13)">
+  <!-- Center Diamond & Crosshairs -->
+  <g transform="translate(480, 12)">
     <polygon points="0,-5 5,0 0,5 -5,0" fill="#E50914"/>
-    <circle cx="0" cy="0" r="1.8" fill="#FFFFFF"/>
-    <!-- Flanking Grid Marks -->
-    <line x1="-16" y1="-3" x2="-16" y2="3" stroke="#6B7280" stroke-width="1"/>
-    <line x1="16" y1="-3" x2="16" y2="3" stroke="#6B7280" stroke-width="1"/>
+    <circle cx="0" cy="0" r="1.5" fill="#FFFFFF"/>
+    <line x1="-15" y1="-3" x2="-15" y2="3" stroke="#6B7280" stroke-width="1"/>
+    <line x1="15" y1="-3" x2="15" y2="3" stroke="#6B7280" stroke-width="1"/>
   </g>
 </svg>

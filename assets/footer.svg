@@ -1,80 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 200" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 160" width="100%" height="100%">
   <defs>
     <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#050507"/>
-      <stop offset="50%" stop-color="#0A0B0E"/>
+      <stop offset="50%" stop-color="#0B0C10"/>
       <stop offset="100%" stop-color="#050507"/>
     </linearGradient>
-
-    <linearGradient id="footerRedGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="footerBeam" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#E50914" stop-opacity="0"/>
       <stop offset="50%" stop-color="#E50914" stop-opacity="0.9"/>
       <stop offset="100%" stop-color="#E50914" stop-opacity="0"/>
     </linearGradient>
   </defs>
 
-  <style>
-    .sys-tag {
-      font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-      font-size: 11px;
-      letter-spacing: 5px;
-      fill: #FF2A3A;
-      font-weight: 700;
-      text-transform: uppercase;
-    }
-    .footer-title {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
-      font-weight: 800;
-      font-size: 30px;
-      letter-spacing: 8px;
-      fill: #FFFFFF;
-      text-transform: uppercase;
-    }
-    .footer-desc {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
-      font-weight: 600;
-      font-size: 12.5px;
-      letter-spacing: 4px;
-      fill: #D1D5DB;
-      text-transform: uppercase;
-    }
-    .footer-sub {
-      font-family: 'SF Mono', 'Fira Code', monospace;
-      font-size: 10px;
-      letter-spacing: 3px;
-      fill: #6B7280;
-      text-transform: uppercase;
-    }
-    .corner-mark {
-      stroke: #E50914;
-      stroke-width: 1.5;
-      stroke-opacity: 0.6;
-    }
-  </style>
-
   <!-- Container -->
-  <rect x="2" y="2" width="956" height="196" rx="8" fill="url(#footerBg)" stroke="#2A2A2A" stroke-width="1.5"/>
+  <rect x="2" y="2" width="956" height="156" rx="8" fill="url(#footerBg)" stroke="#2A2A2A" stroke-width="1.5"/>
 
-  <!-- Corner Brackets -->
-  <g class="corner-mark">
-    <path d="M 22 32 L 22 22 L 32 22"/>
-    <path d="M 938 32 L 938 22 L 928 22"/>
-    <path d="M 22 168 L 22 178 L 32 178"/>
-    <path d="M 938 168 L 938 178 L 928 178"/>
-  </g>
+  <!-- Brackets -->
+  <path d="M 20 28 L 20 18 L 30 18" stroke="#E50914" stroke-width="1.5" fill="none"/>
+  <path d="M 940 28 L 940 18 L 930 18" stroke="#E50914" stroke-width="1.5" fill="none"/>
+  <path d="M 20 132 L 20 142 L 30 142" stroke="#E50914" stroke-width="1.5" fill="none"/>
+  <path d="M 940 132 L 940 142 L 930 142" stroke="#E50914" stroke-width="1.5" fill="none"/>
 
-  <!-- Content -->
-  <text x="480" y="44" text-anchor="middle" class="sys-tag">// SYSTEM TERMINAL //</text>
+  <!-- Text -->
+  <text x="480" y="38" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="10" font-weight="700" letter-spacing="4" fill="#FF2A3A">
+    // SYSTEM TERMINAL //
+  </text>
 
-  <text x="480" y="86" text-anchor="middle" class="footer-title">KAUSIQ SR</text>
+  <text x="480" y="76" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Arial, sans-serif" font-weight="800" font-size="26" letter-spacing="8" fill="#FFFFFF">
+    KAUSIQ SR
+  </text>
 
-  <rect x="360" y="104" width="240" height="1.5" fill="url(#footerRedGlow)"/>
+  <rect x="360" y="90" width="240" height="1.5" fill="url(#footerBeam)"/>
 
-  <text x="480" y="132" text-anchor="middle" class="footer-desc">
+  <text x="480" y="116" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif" font-weight="600" font-size="12" letter-spacing="3" fill="#D1D5DB">
     AI/ML ENGINEER &nbsp;•&nbsp; UI/UX DESIGNER &nbsp;•&nbsp; PROMPT ENGINEER
   </text>
 
-  <text x="480" y="162" text-anchor="middle" class="footer-sub">
-    SRM INSTITUTE OF SCIENCE AND TECHNOLOGY — RAMAPURAM • CHENNAI, INDIA
+  <text x="480" y="138" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="9.5" letter-spacing="3" fill="#6B7280">
+    SRM INSTITUTE OF SCIENCE AND TECHNOLOGY — RAMAPURAM
   </text>
 </svg>
