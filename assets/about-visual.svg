@@ -1,108 +1,199 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 300" width="100%" height="100%">
   <defs>
-    <linearGradient id="cardGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#060709"/>
-      <stop offset="60%" stop-color="#0C0D12"/>
-      <stop offset="100%" stop-color="#14080B"/>
+    <!-- Deep Red Atmospheric Background Gradient -->
+    <linearGradient id="aboutBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030303"/>
+      <stop offset="30%" stop-color="#080506"/>
+      <stop offset="60%" stop-color="#1A0507"/>
+      <stop offset="85%" stop-color="#120305"/>
+      <stop offset="100%" stop-color="#030303"/>
     </linearGradient>
-    <radialGradient id="nodeGlow2" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#FF1A24" stop-opacity="0.9"/>
+
+    <!-- Edge Glows -->
+    <linearGradient id="aboutEdgeTop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8B0A12" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#030303" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Central Neural Core Bloom Glow -->
+    <radialGradient id="coreBloom" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF1A24" stop-opacity="0.5"/>
+      <stop offset="35%" stop-color="#E50914" stop-opacity="0.25"/>
+      <stop offset="70%" stop-color="#5A080D" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Secondary Node Bloom -->
+    <radialGradient id="nodeBloom" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF1A24" stop-opacity="0.85"/>
       <stop offset="50%" stop-color="#E50914" stop-opacity="0.3"/>
       <stop offset="100%" stop-color="#E50914" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="dotGrid2" width="16" height="16" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="0.9" fill="#25282D" fill-opacity="0.6"/>
+
+    <!-- Fine Engineering Telemetry Grid Pattern -->
+    <pattern id="telemetryGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#5A080D" stroke-width="0.5" stroke-opacity="0.3"/>
+      <circle cx="0" cy="0" r="0.65" fill="#E50914" fill-opacity="0.35"/>
+    </pattern>
+
+    <!-- Faint Horizontal Scanline Pattern -->
+    <pattern id="aboutScan" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#000000" stroke-width="1.2" stroke-opacity="0.22"/>
     </pattern>
   </defs>
 
-  <!-- Container -->
-  <rect x="2" y="2" width="596" height="246" rx="8" fill="url(#cardGrad2)" stroke="#25282D" stroke-width="1"/>
-  <rect x="2" y="2" width="596" height="246" rx="8" fill="url(#dotGrid2)"/>
+  <!-- 1. Background Surface & Ambient Lighting -->
+  <rect x="2" y="2" width="616" height="296" rx="8" fill="url(#aboutBgGrad)"/>
+  <rect x="2" y="2" width="616" height="296" rx="8" fill="url(#telemetryGrid)"/>
+  <rect x="2" y="2" width="616" height="296" rx="8" fill="url(#aboutScan)"/>
+  <rect x="2" y="2" width="616" height="60" rx="8" fill="url(#aboutEdgeTop)"/>
 
-  <!-- Header Strip inside SVG -->
-  <rect x="2" y="2" width="596" height="32" rx="8" fill="#101217" stroke="#25282D" stroke-width="0.8"/>
-  <text x="20" y="22" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#E50914">
-    AI SYSTEM // ACTIVE ARCHITECTURE
+  <!-- Soft Central Red Ambient Bloom behind network core -->
+  <ellipse cx="445" cy="165" rx="160" ry="110" fill="url(#coreBloom)"/>
+
+  <!-- 2. Multi-Layer Technical Illuminated Panel Border -->
+  <!-- Outer Dark Red Shadow -->
+  <rect x="5" y="5" width="610" height="290" rx="7" fill="none" stroke="#5A080D" stroke-opacity="0.4" stroke-width="3"/>
+  <!-- Medium Red Glow Border -->
+  <rect x="6" y="6" width="608" height="288" rx="6" fill="none" stroke="#E50914" stroke-opacity="0.35" stroke-width="2"/>
+  <!-- Sharp Precision Red Border -->
+  <rect x="7" y="7" width="606" height="286" rx="5" fill="none" stroke="#E50914" stroke-opacity="0.85" stroke-width="1.2"/>
+  <!-- Inner Subtle Shadow Line -->
+  <rect x="11" y="11" width="598" height="278" rx="4" fill="none" stroke="#1F0407" stroke-width="1"/>
+
+  <!-- Precision Illuminated Corner Reticles -->
+  <path d="M 18 32 L 18 18 L 32 18" stroke="#FF1A24" stroke-width="2" fill="none"/>
+  <circle cx="18" cy="18" r="2.2" fill="#FFFFFF"/>
+  <path d="M 602 32 L 602 18 L 588 18" stroke="#FF1A24" stroke-width="2" fill="none"/>
+  <circle cx="602" cy="18" r="2.2" fill="#FFFFFF"/>
+  <path d="M 18 268 L 18 282 L 32 282" stroke="#FF1A24" stroke-width="2" fill="none"/>
+  <circle cx="18" cy="282" r="2.2" fill="#FFFFFF"/>
+  <path d="M 602 268 L 602 282 L 588 282" stroke="#FF1A24" stroke-width="2" fill="none"/>
+  <circle cx="602" cy="282" r="2.2" fill="#FFFFFF"/>
+
+  <!-- 3. Top HUD Header Bar -->
+  <rect x="11" y="11" width="598" height="32" rx="4" fill="#0D0406" stroke="#3A080D" stroke-width="0.8"/>
+  <text x="24" y="31" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#E50914">
+    // NEURAL INFERENCE &#160;|&#160; AI SYSTEM ARCHITECTURE
   </text>
-  <circle cx="530" cy="18" r="3" fill="#22C55E"/>
-  <text x="540" y="21" font-family="'SF Mono', 'Consolas', monospace" font-size="8.5" fill="#9CA3AF">ONLINE</text>
+  <circle cx="534" cy="27" r="3.2" fill="#22C55E"/>
+  <circle cx="534" cy="27" r="5.5" fill="none" stroke="#22C55E" stroke-opacity="0.5" stroke-width="0.8"/>
+  <text x="546" y="30" font-family="'SF Mono', 'Consolas', monospace" font-size="8.5" font-weight="700" fill="#E5E7EB">SYSTEM // ONLINE</text>
 
-  <!-- 4-Stage Horizontal Pipeline Flow -->
-  <!-- STAGE 1: INPUT -->
-  <g transform="translate(18, 48)">
-    <rect x="0" y="0" width="125" height="180" rx="6" fill="#0C0D12" stroke="#25282D" stroke-width="1"/>
-    <text x="14" y="24" font-family="'SF Mono', 'Consolas', monospace" font-size="9" font-weight="700" fill="#E50914">01 // INPUT</text>
-    <text x="14" y="44" font-family="'SF Mono', 'Consolas', monospace" font-size="8" fill="#FFFFFF">&#8226; Vision Stream</text>
-    <text x="14" y="60" font-family="'SF Mono', 'Consolas', monospace" font-size="8" fill="#FFFFFF">&#8226; Multimodal Data</text>
-    <text x="14" y="76" font-family="'SF Mono', 'Consolas', monospace" font-size="8" fill="#FFFFFF">&#8226; Prompt Context</text>
+  <!-- 4. Left HUD Telemetry Column -->
+  <g transform="translate(22, 56)">
+    <!-- Telemetry Panel Card with Subtle Red Border -->
+    <rect x="0" y="0" width="168" height="222" rx="5" fill="#070304" stroke="#3A080D" stroke-width="1"/>
+    
+    <!-- Multimodal Input Block -->
+    <text x="12" y="22" font-family="'SF Mono', 'Consolas', monospace" font-size="8.5" font-weight="700" fill="#E50914">// MULTIMODAL INPUT</text>
+    <text x="12" y="38" font-family="'SF Mono', 'Consolas', monospace" font-size="8" fill="#D1D5DB">&#8226; Vision / Camera Stream</text>
+    <text x="12" y="52" font-family="'SF Mono', 'Consolas', monospace" font-size="8" fill="#D1D5DB">&#8226; NLP / Token Embeddings</text>
+    <text x="12" y="66" font-family="'SF Mono', 'Consolas', monospace" font-size="8" fill="#D1D5DB">&#8226; Sensor Telemetry</text>
 
-    <!-- Visual telemetry bars -->
-    <rect x="14" y="100" width="95" height="4" rx="2" fill="#1C1E24"/>
-    <rect x="14" y="100" width="70" height="4" rx="2" fill="#E50914"/>
-    <rect x="14" y="112" width="95" height="4" rx="2" fill="#1C1E24"/>
-    <rect x="14" y="112" width="85" height="4" rx="2" fill="#E50914"/>
-    <text x="14" y="145" font-family="'SF Mono', 'Consolas', monospace" font-size="7.5" fill="#6B7280">SENSOR_RATE: 60FPS</text>
-    <text x="14" y="160" font-family="'SF Mono', 'Consolas', monospace" font-size="7.5" fill="#6B7280">TOKENS: 128K</text>
+    <line x1="12" y1="78" x2="156" y2="78" stroke="#250508" stroke-width="1"/>
+
+    <!-- Model Processing Block -->
+    <text x="12" y="94" font-family="'SF Mono', 'Consolas', monospace" font-size="8.5" font-weight="700" fill="#E50914">// MODEL PROCESSING</text>
+    <text x="12" y="110" font-family="'SF Mono', 'Consolas', monospace" font-size="8" fill="#D1D5DB">&#8226; Context Window Buffer</text>
+    <text x="12" y="124" font-family="'SF Mono', 'Consolas', monospace" font-size="8" fill="#D1D5DB">&#8226; Self-Attention Layers</text>
+    <text x="12" y="138" font-family="'SF Mono', 'Consolas', monospace" font-size="8" fill="#D1D5DB">&#8226; Feature Extraction</text>
+
+    <line x1="12" y1="150" x2="156" y2="150" stroke="#250508" stroke-width="1"/>
+
+    <!-- System Status & Inference Indicators -->
+    <text x="12" y="166" font-family="'SF Mono', 'Consolas', monospace" font-size="8.5" font-weight="700" fill="#E50914">// SYSTEM STATUS</text>
+    <text x="12" y="182" font-family="'SF Mono', 'Consolas', monospace" font-size="8" font-weight="700" fill="#F3F4F6">MODEL // ACTIVE</text>
+    <text x="12" y="196" font-family="'SF Mono', 'Consolas', monospace" font-size="8" font-weight="700" fill="#FF1A24">INFERENCE // RUNNING</text>
+    <text x="12" y="210" font-family="'SF Mono', 'Consolas', monospace" font-size="8" font-weight="700" fill="#22C55E">LATENCY // OPTIMIZED</text>
   </g>
 
-  <!-- Flow Vector 1 -> 2 -->
-  <path d="M 147 138 L 160 138" stroke="#E50914" stroke-width="1.8" fill="none"/>
-  <polygon points="163,138 157,135 157,141" fill="#E50914"/>
+  <!-- 5. Right AI System Pipeline Visualization (INPUT -> NLP/VISION -> AI MODEL -> INFERENCE -> OUTPUT) -->
+  <g transform="translate(204, 56)">
+    <!-- Stage Column Headers -->
+    <text x="25" y="18" text-anchor="middle" font-family="'SF Mono', 'Consolas', monospace" font-size="8" font-weight="700" fill="#9CA3AF">INPUT</text>
+    <text x="110" y="18" text-anchor="middle" font-family="'SF Mono', 'Consolas', monospace" font-size="8" font-weight="700" fill="#9CA3AF">VISION / NLP</text>
+    <text x="220" y="18" text-anchor="middle" font-family="'SF Mono', 'Consolas', monospace" font-size="8" font-weight="700" fill="#E50914">AI MODEL</text>
+    <text x="310" y="18" text-anchor="middle" font-family="'SF Mono', 'Consolas', monospace" font-size="8" font-weight="700" fill="#9CA3AF">INFERENCE</text>
+    <text x="380" y="18" text-anchor="middle" font-family="'SF Mono', 'Consolas', monospace" font-size="8" font-weight="700" fill="#FF1A24">OUTPUT</text>
 
-  <!-- STAGE 2: MODELS -->
-  <g transform="translate(166, 48)">
-    <rect x="0" y="0" width="125" height="180" rx="6" fill="#0C0D12" stroke="#25282D" stroke-width="1"/>
-    <text x="14" y="24" font-family="'SF Mono', 'Consolas', monospace" font-size="9" font-weight="700" fill="#E50914">02 // MODELS</text>
-    <text x="14" y="44" font-family="'SF Mono', 'Consolas', monospace" font-size="8" fill="#FFFFFF">&#8226; LLMs &amp; Agents</text>
-    <text x="14" y="60" font-family="'SF Mono', 'Consolas', monospace" font-size="8" fill="#FFFFFF">&#8226; Generative AI</text>
-    <text x="14" y="76" font-family="'SF Mono', 'Consolas', monospace" font-size="8" fill="#FFFFFF">&#8226; OpenCV Vision</text>
-    <text x="14" y="92" font-family="'SF Mono', 'Consolas', monospace" font-size="8" fill="#FFFFFF">&#8226; NLP Pipelines</text>
+    <!-- Stage Flow Indicators (Arrows) -->
+    <path d="M 52 118 L 78 118" stroke="#E50914" stroke-opacity="0.6" stroke-width="1.4" fill="none"/>
+    <polygon points="80,118 74,115 74,121" fill="#E50914"/>
 
-    <!-- Mini Neural Nodes inside model box -->
-    <circle cx="35" cy="130" r="3.5" fill="#E50914"/>
-    <circle cx="35" cy="155" r="3.5" fill="#E50914"/>
-    <circle cx="85" cy="142" r="4.5" fill="#FF1A24"/>
-    <line x1="38" y1="130" x2="82" y2="142" stroke="#E50914" stroke-width="1"/>
-    <line x1="38" y1="155" x2="82" y2="142" stroke="#E50914" stroke-width="1"/>
-  </g>
+    <path d="M 148 118 L 178 118" stroke="#E50914" stroke-opacity="0.6" stroke-width="1.4" fill="none"/>
+    <polygon points="180,118 174,115 174,121" fill="#E50914"/>
 
-  <!-- Flow Vector 2 -> 3 -->
-  <path d="M 295 138 L 308 138" stroke="#E50914" stroke-width="1.8" fill="none"/>
-  <polygon points="311,138 305,135 305,141" fill="#E50914"/>
+    <path d="M 262 118 L 282 118" stroke="#E50914" stroke-opacity="0.6" stroke-width="1.4" fill="none"/>
+    <polygon points="284,118 278,115 278,121" fill="#E50914"/>
 
-  <!-- STAGE 3: PROCESSING -->
-  <g transform="translate(314, 48)">
-    <rect x="0" y="0" width="125" height="180" rx="6" fill="#0C0D12" stroke="#25282D" stroke-width="1"/>
-    <text x="14" y="24" font-family="'SF Mono', 'Consolas', monospace" font-size="9" font-weight="700" fill="#E50914">03 // PROCESSING</text>
-    <text x="14" y="44" font-family="'SF Mono', 'Consolas', monospace" font-size="8" fill="#FFFFFF">&#8226; Embeddings</text>
-    <text x="14" y="60" font-family="'SF Mono', 'Consolas', monospace" font-size="8" fill="#FFFFFF">&#8226; Feature Vectors</text>
-    <text x="14" y="76" font-family="'SF Mono', 'Consolas', monospace" font-size="8" fill="#FFFFFF">&#8226; Edge Inference</text>
+    <path d="M 338 118 L 358 118" stroke="#E50914" stroke-opacity="0.6" stroke-width="1.4" fill="none"/>
+    <polygon points="360,118 354,115 354,121" fill="#E50914"/>
 
-    <!-- Matrix convolution matrix -->
-    <rect x="25" y="105" width="75" height="50" rx="3" fill="#141418" stroke="#E50914" stroke-opacity="0.4" stroke-width="1"/>
-    <line x1="50" y1="105" x2="50" y2="155" stroke="#25282D" stroke-width="1"/>
-    <line x1="75" y1="105" x2="75" y2="155" stroke="#25282D" stroke-width="1"/>
-    <line x1="25" y1="130" x2="100" y2="130" stroke="#25282D" stroke-width="1"/>
-    <circle cx="62.5" cy="130" r="3" fill="#FF1A24"/>
-    <text x="25" y="170" font-family="'SF Mono', 'Consolas', monospace" font-size="7.5" fill="#6B7280">LATENCY: &lt;14MS</text>
-  </g>
+    <!-- Neural Network Synapse Lines (Input -> Vision/NLP) -->
+    <line x1="25" y1="55" x2="110" y2="48" stroke="#E50914" stroke-opacity="0.3" stroke-width="1"/>
+    <line x1="25" y1="55" x2="110" y2="95" stroke="#E50914" stroke-opacity="0.5" stroke-width="1.2"/>
+    <line x1="25" y1="55" x2="110" y2="145" stroke="#E50914" stroke-opacity="0.25" stroke-width="1"/>
 
-  <!-- Flow Vector 3 -> 4 -->
-  <path d="M 443 138 L 456 138" stroke="#E50914" stroke-width="1.8" fill="none"/>
-  <polygon points="459,138 453,135 453,141" fill="#E50914"/>
+    <line x1="25" y1="118" x2="110" y2="48" stroke="#E50914" stroke-opacity="0.4" stroke-width="1.2"/>
+    <line x1="25" y1="118" x2="110" y2="95" stroke="#FF1A24" stroke-opacity="0.8" stroke-width="1.6"/>
+    <line x1="25" y1="118" x2="110" y2="145" stroke="#E50914" stroke-opacity="0.6" stroke-width="1.2"/>
+    <line x1="25" y1="118" x2="110" y2="190" stroke="#E50914" stroke-opacity="0.3" stroke-width="1"/>
 
-  <!-- STAGE 4: OUTPUT -->
-  <g transform="translate(462, 48)">
-    <rect x="0" y="0" width="120" height="180" rx="6" fill="#0C0D12" stroke="#25282D" stroke-width="1"/>
-    <text x="12" y="24" font-family="'SF Mono', 'Consolas', monospace" font-size="9" font-weight="700" fill="#E50914">04 // OUTPUT</text>
-    <text x="12" y="44" font-family="'SF Mono', 'Consolas', monospace" font-size="8" fill="#FFFFFF">&#8226; Assistive Perception</text>
-    <text x="12" y="60" font-family="'SF Mono', 'Consolas', monospace" font-size="8" fill="#FFFFFF">&#8226; Decision Logic</text>
-    <text x="12" y="76" font-family="'SF Mono', 'Consolas', monospace" font-size="8" fill="#FFFFFF">&#8226; Intelligent UI/UX</text>
+    <line x1="25" y1="180" x2="110" y2="95" stroke="#E50914" stroke-opacity="0.35" stroke-width="1"/>
+    <line x1="25" y1="180" x2="110" y2="145" stroke="#E50914" stroke-opacity="0.6" stroke-width="1.3"/>
+    <line x1="25" y1="180" x2="110" y2="190" stroke="#E50914" stroke-opacity="0.5" stroke-width="1.2"/>
 
-    <!-- Glowing output pulse -->
-    <circle cx="60" cy="130" r="22" fill="url(#nodeGlow2)"/>
-    <circle cx="60" cy="130" r="7" fill="#FFFFFF"/>
-    <circle cx="60" cy="130" r="10" fill="none" stroke="#FF1A24" stroke-width="1.5"/>
-    <text x="60" y="165" text-anchor="middle" font-family="'SF Mono', 'Consolas', monospace" font-size="7.5" fill="#E50914">TARGET_ACQUIRED</text>
+    <!-- Synapses (Vision/NLP -> Central AI Model) -->
+    <line x1="110" y1="48" x2="220" y2="118" stroke="#E50914" stroke-opacity="0.6" stroke-width="1.4"/>
+    <line x1="110" y1="95" x2="220" y2="118" stroke="#FF1A24" stroke-opacity="0.95" stroke-width="2"/>
+    <line x1="110" y1="145" x2="220" y2="118" stroke="#FF1A24" stroke-opacity="0.85" stroke-width="1.8"/>
+    <line x1="110" y1="190" x2="220" y2="118" stroke="#E50914" stroke-opacity="0.5" stroke-width="1.2"/>
+
+    <!-- Synapses (Central AI Model -> Inference Node) -->
+    <line x1="220" y1="118" x2="310" y2="70" stroke="#E50914" stroke-opacity="0.6" stroke-width="1.4"/>
+    <line x1="220" y1="118" x2="310" y2="118" stroke="#FF1A24" stroke-opacity="0.95" stroke-width="2"/>
+    <line x1="220" y1="118" x2="310" y2="168" stroke="#E50914" stroke-opacity="0.6" stroke-width="1.4"/>
+
+    <!-- Synapses (Inference Node -> Output) -->
+    <line x1="310" y1="70" x2="380" y2="118" stroke="#FF1A24" stroke-opacity="0.75" stroke-width="1.4"/>
+    <line x1="310" y1="118" x2="380" y2="118" stroke="#FF1A24" stroke-opacity="0.95" stroke-width="2.2"/>
+    <line x1="310" y1="168" x2="380" y2="118" stroke="#FF1A24" stroke-opacity="0.75" stroke-width="1.4"/>
+
+    <!-- 1. Input Nodes -->
+    <circle cx="25" cy="55" r="5" fill="#140608" stroke="#E50914" stroke-width="1.5"/>
+    <circle cx="25" cy="118" r="6.5" fill="#FF1A24"/>
+    <circle cx="25" cy="180" r="5" fill="#140608" stroke="#E50914" stroke-width="1.5"/>
+
+    <!-- 2. Vision / NLP Feature Nodes -->
+    <circle cx="110" cy="48" r="5" fill="#140608" stroke="#E50914" stroke-width="1.5"/>
+    <circle cx="110" cy="95" r="7.5" fill="#FF1A24"/>
+    <circle cx="110" cy="145" r="6" fill="#E50914"/>
+    <circle cx="110" cy="190" r="5" fill="#140608" stroke="#E50914" stroke-width="1.5"/>
+
+    <!-- 3. Central AI Model Core (High-Glow Focal Point) -->
+    <circle cx="220" cy="118" r="28" fill="url(#nodeBloom)"/>
+    <circle cx="220" cy="118" r="14" fill="#E50914"/>
+    <circle cx="220" cy="118" r="8" fill="#FFFFFF"/>
+    <circle cx="220" cy="118" r="19" fill="none" stroke="#FF1A24" stroke-width="1.8" stroke-dasharray="6,4"/>
+    <text x="220" y="156" text-anchor="middle" font-family="'SF Mono', 'Consolas', monospace" font-size="7.5" font-weight="700" fill="#FFFFFF">CONTEXT_WINDOW</text>
+
+    <!-- 4. Inference Node -->
+    <circle cx="310" cy="70" r="4.5" fill="#140608" stroke="#E50914" stroke-width="1.3"/>
+    <circle cx="310" cy="118" r="10" fill="#1A0507" stroke="#FF1A24" stroke-width="1.8"/>
+    <circle cx="310" cy="118" r="4" fill="#FF1A24"/>
+    <circle cx="310" cy="168" r="4.5" fill="#140608" stroke="#E50914" stroke-width="1.3"/>
+    <text x="310" y="142" text-anchor="middle" font-family="'SF Mono', 'Consolas', monospace" font-size="7" font-weight="700" fill="#D1D5DB">EXECUTION</text>
+
+    <!-- 5. Output Target Reticle -->
+    <circle cx="380" cy="118" r="22" fill="url(#nodeBloom)"/>
+    <circle cx="380" cy="118" r="8.5" fill="#FFFFFF"/>
+    <circle cx="380" cy="118" r="13" fill="none" stroke="#FF1A24" stroke-width="1.6"/>
+    <!-- Reticle crosshairs -->
+    <line x1="363" y1="118" x2="369" y2="118" stroke="#E50914" stroke-width="1.5"/>
+    <line x1="391" y1="118" x2="397" y2="118" stroke="#E50914" stroke-width="1.5"/>
+    <line x1="380" y1="101" x2="380" y2="107" stroke="#E50914" stroke-width="1.5"/>
+    <line x1="380" y1="129" x2="380" y2="135" stroke="#E50914" stroke-width="1.5"/>
+    <text x="380" y="156" text-anchor="middle" font-family="'SF Mono', 'Consolas', monospace" font-size="7.5" font-weight="700" fill="#FF1A24">ACTION_VECTOR</text>
   </g>
 </svg>
