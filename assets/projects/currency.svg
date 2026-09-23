@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 90" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgCurrency" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07080B"/>
+      <stop offset="100%" stop-color="#11090C"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="536" height="86" rx="6" fill="url(#bgCurrency)" stroke="#25282D" stroke-width="1"/>
+  <path d="M 2 2 L 5 2 L 5 88 L 2 88 Z" fill="#E50914"/>
+
+  <!-- Left: Titles -->
+  <text x="24" y="32" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="10" font-weight="700" letter-spacing="2" fill="#E50914">
+    07 // UTILITY / JAVA
+  </text>
+  <text x="24" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Arial, sans-serif" font-weight="800" font-size="20" letter-spacing="2" fill="#FFFFFF">
+    CURRENCY CONVERTER
+  </text>
+  <text x="24" y="76" font-family="'SF Mono', 'Consolas', monospace" font-size="9" fill="#9CA3AF">
+    EXCHANGE RATE CALCULATION &#160;•&#160; JAVA &#160;•&#160; PYTHON
+  </text>
+
+  <!-- Right: Currency Flow Vectors Graphic -->
+  <g transform="translate(410, 18)">
+    <rect x="5" y="10" width="34" height="24" rx="3" fill="#141418" stroke="#E50914" stroke-width="1"/>
+    <text x="22" y="26" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">$</text>
+
+    <!-- Bi-directional Exchange Arrows -->
+    <path d="M 45 18 L 65 18 M 61 14 L 66 18 L 61 22" stroke="#E50914" stroke-width="1.4" fill="none"/>
+    <path d="M 65 26 L 45 26 M 49 22 L 44 26 L 49 30" stroke="#9CA3AF" stroke-width="1.4" fill="none"/>
+
+    <rect x="72" y="10" width="34" height="24" rx="3" fill="#141418" stroke="#E50914" stroke-width="1"/>
+    <text x="89" y="26" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">€</text>
+
+    <text x="55" y="48" text-anchor="middle" font-family="'SF Mono', 'Consolas', monospace" font-size="7.5" fill="#9CA3AF">RATE_SYNC</text>
+  </g>
+</svg>

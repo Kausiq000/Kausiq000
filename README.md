@@ -19,9 +19,9 @@
     <strong>SRM Institute of Science and Technology – Ramapuram</strong> • India
   </p>
 
-  <!-- DYNAMIC TERMINAL TYPING BANNER -->
+  <!-- CLEAN SINGLE-LINE DYNAMIC TYPING BANNER -->
   <a href="https://github.com/Kausiq000">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=15&duration=2800&pause=1000&color=E50914&center=true&vCenter=true&width=750&lines=AI%2FML+Engineer+%7C+UI%2FUX+Designer+%7C+Prompt+Engineer;Final-Year+AIML+Student+%40+SRM+IST+Ramapuram;LLMs+%E2%80%A2+Generative+AI+%E2%80%A2+Machine+Learning+%E2%80%A2+Computer+Vision;Building+Intelligent+Software+%26+Digital+Experiences" alt="Terminal Typing" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=3000&pause=2000&color=E50914&center=true&vCenter=true&width=650&lines=LLMs+%E2%80%A2+Generative+AI+%E2%80%A2+Machine+Learning+%E2%80%A2+Computer+Vision" alt="Terminal Typing" />
   </a>
 
   <br/><br/>
@@ -67,7 +67,7 @@
 
 <table width="100%">
   <tr>
-    <td width="55%" valign="top">
+    <td width="54%" valign="top">
       <code><font color="#E50914"><b>// PROFILE SUMMARY</b></font> &nbsp;|&nbsp; <font color="#9CA3AF">AIML STUDENT</font></code>
       <br/><br/>
       <strong>Final-Year B.Tech Student in Artificial Intelligence and Machine Learning</strong><br/>
@@ -80,9 +80,9 @@
       <code><font color="#E50914">LOCATION // </font><font color="#9CA3AF">SRM IST • RAMAPURAM • INDIA</font></code><br/>
       <code><font color="#E50914">STATUS // </font><font color="#9CA3AF">AVAILABLE FOR COLLABORATIVE OPPORTUNITIES</font></code>
     </td>
-    <td width="45%" valign="middle" align="center">
-      <!-- VISUAL ELEMENT INSIDE ABOUT -->
-      <img src="assets/about-visual.svg" width="100%" alt="Neural Architecture Visual" />
+    <td width="46%" valign="middle" align="center">
+      <!-- MULTI-STAGE AI ARCHITECTURE VISUAL -->
+      <img src="assets/about-visual.svg" width="100%" alt="AI Architecture Pipeline Visual" />
     </td>
   </tr>
 </table>
@@ -174,19 +174,23 @@
 <table width="100%">
   <tr>
     <td width="100%" valign="top">
-      <code><font color="#E50914"><b>01 // FEATURED FLAGSHIP SPOTLIGHT</b></font></code> &nbsp;|&nbsp; <code><font color="#9CA3AF">INTELLECTUAL PROPERTY</font></code>
+      <!-- THEMATIC FLAGSHIP SVG HEADER -->
+      <img src="assets/projects/thirdeye.svg" width="100%" alt="ThirdEye Flagship Architecture" />
       <br/><br/>
-      <h2><strong>ThirdEye</strong></h2>
       <p>
         <strong>Assistive technology designed to support visually impaired users.</strong>
       </p>
       <p>
-        ThirdEye delivers real-time environmental perception and obstacle detection for visually impaired individuals through an offline edge-AI architecture, multimodal sensing, and localized tactile feedback.
+        ThirdEye delivers real-time environmental perception and obstacle detection for visually impaired individuals through an offline edge-AI architecture, multimodal sensor telemetry, and localized tactile feedback.
       </p>
       <p>
         <img src="https://img.shields.io/badge/STATUS-PATENT_FILED_%2F_UNDER_REVIEW-E50914?style=for-the-badge&logo=shield&logoColor=white&labelColor=0A0A0A" alt="Patent Status" />
+        &nbsp;
+        <img src="https://img.shields.io/badge/AI-0A0A0A?style=flat-square&color=25282D" alt="AI" />
+        <img src="https://img.shields.io/badge/COMPUTER_VISION-0A0A0A?style=flat-square&color=25282D" alt="CV" />
+        <img src="https://img.shields.io/badge/ASSISTIVE_TECH-0A0A0A?style=flat-square&color=25282D" alt="Assistive Tech" />
+        <img src="https://img.shields.io/badge/EDGE_AI-0A0A0A?style=flat-square&color=25282D" alt="Edge AI" />
       </p>
-      <code><font color="#E50914">FOCUS // </font><font color="#9CA3AF">AI • COMPUTER VISION • ASSISTIVE TECHNOLOGY • EDGE COMPUTING</font></code>
     </td>
   </tr>
 </table>
@@ -200,79 +204,85 @@
   <!-- ROW 1: 02 & 03 -->
   <tr>
     <td width="50%" valign="top">
-      <code><font color="#E50914"><b>02 //</b></font> <font color="#9CA3AF">WEB PLATFORM</font></code>
+      <img src="assets/projects/netra.svg" width="100%" alt="Netra Website" />
       <br/><br/>
-      <h3><strong>Netra Website</strong></h3>
-      <p>Website development project.</p>
-      <code><font color="#E50914">STACK // </font><font color="#9CA3AF">WEB DEVELOPMENT • UI/UX DESIGN</font></code>
+      <p>Healthcare assistant website development project focusing on responsive web architecture and user experience.</p>
+      <img src="https://img.shields.io/badge/WEB_DEVELOPMENT-0A0A0A?style=flat-square&color=25282D" alt="Web Dev" />
+      <img src="https://img.shields.io/badge/UI%2FUX_DESIGN-0A0A0A?style=flat-square&color=25282D" alt="UI/UX" />
     </td>
     <td width="50%" valign="top">
-      <code><font color="#E50914"><b>03 //</b></font> <font color="#9CA3AF">CAREER AI</font></code>
+      <img src="assets/projects/placement.svg" width="100%" alt="AI Placement Assistant" />
       <br/><br/>
-      <h3><strong>AI Powered Placement Preparation Assistant</strong></h3>
-      <p>AI-powered placement preparation project.</p>
-      <code><font color="#E50914">STACK // </font><font color="#9CA3AF">AI • NLP • GENERATIVE AI</font></code>
+      <p>AI-powered placement preparation and interview assessment assistant leveraging NLP pipelines and structured evaluation.</p>
+      <img src="https://img.shields.io/badge/AI-0A0A0A?style=flat-square&color=25282D" alt="AI" />
+      <img src="https://img.shields.io/badge/NLP-0A0A0A?style=flat-square&color=25282D" alt="NLP" />
+      <img src="https://img.shields.io/badge/GENERATIVE_AI-0A0A0A?style=flat-square&color=25282D" alt="GenAI" />
     </td>
   </tr>
   <!-- ROW 2: 04 & 05 -->
   <tr>
     <td width="50%" valign="top">
-      <code><font color="#E50914"><b>04 //</b></font> <font color="#9CA3AF">SMART INDUSTRIAL</font></code>
+      <img src="assets/projects/smart-factory.svg" width="100%" alt="Smart Factory Workforce Allocation" />
       <br/><br/>
-      <h3><strong>AI Workforce Allocation &amp; Management for Smart Factories</strong></h3>
-      <p>AI-based workforce allocation and management project for smart factory environments.</p>
-      <code><font color="#E50914">STACK // </font><font color="#9CA3AF">AI • MACHINE LEARNING</font></code>
+      <p>AI-based workforce allocation and management platform designed for scheduling and task optimization in smart factory environments.</p>
+      <img src="https://img.shields.io/badge/AI-0A0A0A?style=flat-square&color=25282D" alt="AI" />
+      <img src="https://img.shields.io/badge/MACHINE_LEARNING-0A0A0A?style=flat-square&color=25282D" alt="ML" />
+      <img src="https://img.shields.io/badge/OPTIMIZATION-0A0A0A?style=flat-square&color=25282D" alt="Optimization" />
     </td>
     <td width="50%" valign="top">
-      <code><font color="#E50914"><b>05 //</b></font> <font color="#9CA3AF">TALENT INTELLIGENCE</font></code>
+      <img src="assets/projects/resume.svg" width="100%" alt="Resume Screening System" />
       <br/><br/>
-      <h3><strong>Resume Screening System</strong></h3>
-      <p>Resume screening project using NLP and Machine Learning.</p>
-      <code><font color="#E50914">STACK // </font><font color="#9CA3AF">NLP • MACHINE LEARNING • PYTHON</font></code>
+      <p>Resume screening and ranking system utilizing NLP text extraction, tokenization, and machine learning classification models.</p>
+      <img src="https://img.shields.io/badge/NLP-0A0A0A?style=flat-square&color=25282D" alt="NLP" />
+      <img src="https://img.shields.io/badge/MACHINE_LEARNING-0A0A0A?style=flat-square&color=25282D" alt="ML" />
+      <img src="https://img.shields.io/badge/PYTHON-0A0A0A?style=flat-square&color=25282D" alt="Python" />
     </td>
   </tr>
   <!-- ROW 3: 06 & 07 -->
   <tr>
     <td width="50%" valign="top">
-      <code><font color="#E50914"><b>06 //</b></font> <font color="#9CA3AF">HCI &amp; VISION</font></code>
+      <img src="assets/projects/gesture.svg" width="100%" alt="Hand Gesture Control" />
       <br/><br/>
-      <h3><strong>Hand Gesture Control</strong></h3>
-      <p>Hand gesture control project using OpenCV and MediaPipe.</p>
-      <code><font color="#E50914">STACK // </font><font color="#9CA3AF">COMPUTER VISION • OPENCV • MEDIAPIPE</font></code>
+      <p>Hand gesture control and interactive recognition system using OpenCV vision pipelines and Google MediaPipe skeletal tracking.</p>
+      <img src="https://img.shields.io/badge/COMPUTER_VISION-0A0A0A?style=flat-square&color=25282D" alt="CV" />
+      <img src="https://img.shields.io/badge/OPENCV-0A0A0A?style=flat-square&color=25282D" alt="OpenCV" />
+      <img src="https://img.shields.io/badge/MEDIAPIPE-0A0A0A?style=flat-square&color=25282D" alt="MediaPipe" />
     </td>
     <td width="50%" valign="top">
-      <code><font color="#E50914"><b>07 //</b></font> <font color="#9CA3AF">FINTECH UTILITY</font></code>
+      <img src="assets/projects/currency.svg" width="100%" alt="Currency Converter" />
       <br/><br/>
-      <h3><strong>Currency Converter</strong></h3>
-      <p>Currency conversion project involving Java and Python.</p>
-      <code><font color="#E50914">STACK // </font><font color="#9CA3AF">JAVA • PYTHON</font></code>
+      <p>Currency conversion and exchange calculation utility developed with Java computational logic and Python data processing.</p>
+      <img src="https://img.shields.io/badge/JAVA-0A0A0A?style=flat-square&color=25282D" alt="Java" />
+      <img src="https://img.shields.io/badge/PYTHON-0A0A0A?style=flat-square&color=25282D" alt="Python" />
     </td>
   </tr>
   <!-- ROW 4: 08 & 09 -->
   <tr>
     <td width="50%" valign="top">
-      <code><font color="#E50914"><b>08 //</b></font> <font color="#9CA3AF">ENTERPRISE SYSTEMS</font></code>
+      <img src="assets/projects/pharmacy.svg" width="100%" alt="Pharmacy Inventory System" />
       <br/><br/>
-      <h3><strong>Pharmacy Inventory System</strong></h3>
-      <p>Java + SQL based pharmacy inventory management system.</p>
-      <code><font color="#E50914">STACK // </font><font color="#9CA3AF">JAVA • SQL • DATABASE</font></code>
+      <p>Enterprise pharmacy inventory management application backed by Java application logic and relational SQL database storage.</p>
+      <img src="https://img.shields.io/badge/JAVA-0A0A0A?style=flat-square&color=25282D" alt="Java" />
+      <img src="https://img.shields.io/badge/SQL_DATABASE-0A0A0A?style=flat-square&color=25282D" alt="SQL" />
     </td>
     <td width="50%" valign="top">
-      <code><font color="#E50914"><b>09 //</b></font> <font color="#9CA3AF">IMAGE PROCESSING</font></code>
+      <img src="assets/projects/image-filter.svg" width="100%" alt="Image Filter Application" />
       <br/><br/>
-      <h3><strong>Image Filter Application</strong></h3>
-      <p>Image processing application using OpenCV.</p>
-      <code><font color="#E50914">STACK // </font><font color="#9CA3AF">OPENCV • PYTHON • IMAGE PROCESSING</font></code>
+      <p>Digital image processing application executing spatial filtering, blur, sharpening, and edge detection kernels using OpenCV.</p>
+      <img src="https://img.shields.io/badge/OPENCV-0A0A0A?style=flat-square&color=25282D" alt="OpenCV" />
+      <img src="https://img.shields.io/badge/PYTHON-0A0A0A?style=flat-square&color=25282D" alt="Python" />
+      <img src="https://img.shields.io/badge/IMAGE_PROCESSING-0A0A0A?style=flat-square&color=25282D" alt="Img Proc" />
     </td>
   </tr>
   <!-- ROW 5: 10 -->
   <tr>
     <td colspan="2" valign="top">
-      <code><font color="#E50914"><b>10 // PREDICTIVE ANALYTICS</b></font></code>
+      <img src="assets/projects/power.svg" width="100%" alt="Power Outage Prediction" />
       <br/><br/>
-      <h3><strong>Power Outage Impact Prediction System</strong></h3>
-      <p>Machine learning project for predicting the impact of power outages.</p>
-      <code><font color="#E50914">STACK // </font><font color="#9CA3AF">MACHINE LEARNING • PREDICTIVE ANALYTICS • PYTHON</font></code>
+      <p>Machine learning project predicting regional electrical grid instability and outage impact factors using predictive statistical models.</p>
+      <img src="https://img.shields.io/badge/MACHINE_LEARNING-0A0A0A?style=flat-square&color=25282D" alt="ML" />
+      <img src="https://img.shields.io/badge/PREDICTIVE_ANALYTICS-0A0A0A?style=flat-square&color=25282D" alt="Analytics" />
+      <img src="https://img.shields.io/badge/PYTHON-0A0A0A?style=flat-square&color=25282D" alt="Python" />
     </td>
   </tr>
 </table>

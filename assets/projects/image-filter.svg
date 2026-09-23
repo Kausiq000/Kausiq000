@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 90" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgFilter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07080B"/>
+      <stop offset="100%" stop-color="#11090C"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="536" height="86" rx="6" fill="url(#bgFilter)" stroke="#25282D" stroke-width="1"/>
+  <path d="M 2 2 L 5 2 L 5 88 L 2 88 Z" fill="#E50914"/>
+
+  <!-- Left: Titles -->
+  <text x="24" y="32" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="10" font-weight="700" letter-spacing="2" fill="#E50914">
+    09 // IMAGE PROCESSING
+  </text>
+  <text x="24" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Arial, sans-serif" font-weight="800" font-size="20" letter-spacing="2" fill="#FFFFFF">
+    IMAGE FILTER APPLICATION
+  </text>
+  <text x="24" y="76" font-family="'SF Mono', 'Consolas', monospace" font-size="9" fill="#9CA3AF">
+    CONVOLUTION KERNELS &#160;•&#160; OPENCV &#160;•&#160; PYTHON
+  </text>
+
+  <!-- Right: 3x3 Convolution Matrix Graphic -->
+  <g transform="translate(425, 14)">
+    <!-- 3x3 Pixel Kernel -->
+    <rect x="0" y="0" width="15" height="15" rx="1" fill="#141418" stroke="#25282D" stroke-width="1"/>
+    <rect x="18" y="0" width="15" height="15" rx="1" fill="#141418" stroke="#25282D" stroke-width="1"/>
+    <rect x="36" y="0" width="15" height="15" rx="1" fill="#141418" stroke="#25282D" stroke-width="1"/>
+
+    <rect x="0" y="18" width="15" height="15" rx="1" fill="#141418" stroke="#25282D" stroke-width="1"/>
+    <rect x="18" y="18" width="15" height="15" rx="1" fill="#E50914" stroke="#FF1A24" stroke-width="1.2"/>
+    <circle cx="25.5" cy="25.5" r="3" fill="#FFFFFF"/>
+    <rect x="36" y="18" width="15" height="15" rx="1" fill="#141418" stroke="#25282D" stroke-width="1"/>
+
+    <rect x="0" y="36" width="15" height="15" rx="1" fill="#141418" stroke="#25282D" stroke-width="1"/>
+    <rect x="18" y="36" width="15" height="15" rx="1" fill="#141418" stroke="#25282D" stroke-width="1"/>
+    <rect x="36" y="36" width="15" height="15" rx="1" fill="#141418" stroke="#25282D" stroke-width="1"/>
+
+    <!-- Matrix convolution label -->
+    <text x="65" y="24" font-family="'SF Mono', 'Consolas', monospace" font-size="8" fill="#E50914">KERNEL_3x3</text>
+    <text x="65" y="38" font-family="'SF Mono', 'Consolas', monospace" font-size="7" fill="#9CA3AF">SOBEL / BLUR</text>
+  </g>
+</svg>

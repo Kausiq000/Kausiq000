@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 90" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgFactory" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07080B"/>
+      <stop offset="100%" stop-color="#11090C"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="536" height="86" rx="6" fill="url(#bgFactory)" stroke="#25282D" stroke-width="1"/>
+  <path d="M 2 2 L 5 2 L 5 88 L 2 88 Z" fill="#E50914"/>
+
+  <!-- Left: Titles -->
+  <text x="24" y="32" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="10" font-weight="700" letter-spacing="2" fill="#E50914">
+    04 // AI / SMART INDUSTRIAL
+  </text>
+  <text x="24" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Arial, sans-serif" font-weight="800" font-size="19" letter-spacing="1.5" fill="#FFFFFF">
+    SMART FACTORY WORKFORCE
+  </text>
+  <text x="24" y="76" font-family="'SF Mono', 'Consolas', monospace" font-size="9" fill="#9CA3AF">
+    OPTIMIZATION &#160;•&#160; MACHINE LEARNING &#160;•&#160; IOT
+  </text>
+
+  <!-- Right: Factory Grid Network Graphic -->
+  <g transform="translate(400, 16)">
+    <!-- Connected nodes grid -->
+    <rect x="15" y="10" width="16" height="16" rx="2" fill="#141418" stroke="#E50914" stroke-width="1.2"/>
+    <rect x="55" y="10" width="16" height="16" rx="2" fill="#141418" stroke="#E50914" stroke-width="1.2"/>
+    <rect x="95" y="10" width="16" height="16" rx="2" fill="#141418" stroke="#E50914" stroke-width="1.2"/>
+
+    <rect x="35" y="38" width="16" height="16" rx="2" fill="#E50914"/>
+    <rect x="75" y="38" width="16" height="16" rx="2" fill="#FF1A24"/>
+
+    <!-- Interconnects -->
+    <line x1="31" y1="18" x2="55" y2="18" stroke="#E50914" stroke-width="1"/>
+    <line x1="71" y1="18" x2="95" y2="18" stroke="#E50914" stroke-width="1"/>
+    <line x1="23" y1="26" x2="35" y2="38" stroke="#E50914" stroke-width="1"/>
+    <line x1="63" y1="26" x2="43" y2="38" stroke="#E50914" stroke-width="1"/>
+    <line x1="63" y1="26" x2="75" y2="38" stroke="#E50914" stroke-width="1"/>
+    <line x1="103" y1="26" x2="91" y2="38" stroke="#E50914" stroke-width="1"/>
+
+    <text x="63" y="66" text-anchor="middle" font-family="'SF Mono', 'Consolas', monospace" font-size="7" fill="#9CA3AF">WORKFORCE_ALLOC</text>
+  </g>
+</svg>
