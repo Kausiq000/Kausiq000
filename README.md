@@ -298,50 +298,26 @@
 
 <table width="100%">
   <tr>
-    <!-- CARD 01: NXTGEN HACKATHON -->
     <td width="33%" valign="top">
-      <img src="assets/milestones/nxtgen.svg" width="100%" alt="NXTGEN Hackathon Runner-up" />
-      <br/><br/>
-      <img src="https://img.shields.io/badge/AWARD-RUNNER--UP-E50914?style=for-the-badge&logo=target&logoColor=white&labelColor=0A0A0A" alt="Runner-up" />
-      <br/><br/>
-      <strong><code>NXTGEN HACKATHON</code></strong>
-      <br/>
-      <p>
-        Secured <strong>Runner-up</strong> position at the national-level NXTGEN Hackathon for engineering innovative real-time AI solutions.
-      </p>
+      <img src="assets/milestones/nxtgen.svg" width="100%" alt="NXTGEN Hackathon Runner-up" /><br/><br/>
+      <img src="https://img.shields.io/badge/AWARD-RUNNER--UP-E50914?style=for-the-badge&logo=target&logoColor=white&labelColor=0A0A0A" alt="Runner-up" /><br/><br/>
+      <strong><code>NXTGEN HACKATHON</code></strong><br/><br/>
+      <p>Secured <strong>Runner-up</strong> position at the national-level NXTGEN Hackathon for engineering innovative real-time AI solutions.</p>
       <code><font color="#E50914">FIELD // </font><font color="#9CA3AF">AI • INNOVATION • PROTOTYPING</font></code>
     </td>
-
-    <!-- CARD 02: THIRDEYE PATENT -->
     <td width="34%" valign="top">
-      <img src="assets/milestones/patent.svg" width="100%" alt="ThirdEye Patent Filed / Under Review" />
-      <br/><br/>
-      <img src="https://img.shields.io/badge/PATENT-UNDER_REVIEW-E50914?style=for-the-badge&logo=shield&logoColor=white&labelColor=0A0A0A" alt="Patent Under Review" />
-      <br/><br/>
-      <strong><code>THIRDEYE</code></strong>
-      <br/>
-      <p>
-        <strong>Patent filed / under review</strong> for a fully offline multimodal assistive edge-AI wearable delivering tactile spatial awareness.
-      </p>
+      <img src="assets/milestones/patent.svg" width="100%" alt="ThirdEye Patent Filed / Under Review" /><br/><br/>
+      <img src="https://img.shields.io/badge/PATENT-UNDER_REVIEW-E50914?style=for-the-badge&logo=shield&logoColor=white&labelColor=0A0A0A" alt="Patent Under Review" /><br/><br/>
+      <strong><code>THIRDEYE</code></strong><br/><br/>
+      <p><strong>Patent filed / under review</strong> for a fully offline multimodal assistive edge-AI wearable delivering tactile spatial awareness.</p>
       <code><font color="#E50914">FIELD // </font><font color="#9CA3AF">ASSISTIVE TECH • CV • EDGE AI</font></code>
     </td>
-
-    <!-- CARD 03: RESEARCH PUBLICATION -->
     <td width="33%" valign="top">
-      <img src="assets/milestones/research.svg" width="100%" alt="Peer-Reviewed Research Publication" />
-      <br/><br/>
-      <img src="https://img.shields.io/badge/RESEARCH-PUBLISHED_%E2%80%A2_2026-E50914?style=for-the-badge&logo=book&logoColor=white&labelColor=0A0A0A" alt="Published 2026" />
-      <br/><br/>
-      <strong><code>RESEARCH PUBLICATION</code></strong>
-      <br/>
-      <p>
-        <em>"A Fully Offline, Multimodal Edge AI Wearable for the Visually Impaired"</em><br/>
-        <strong>FMDB Transactions on Sustainable Biomedical Engineering</strong> • 2026
-      </p>
-      <a href="https://doi.org/10.69888/FTSBE.2026.000671">
-        <img src="https://img.shields.io/badge/DOI-10.69888%2FFTSBE.2026.000671-E50914?style=flat-square&logo=doi&logoColor=white&labelColor=0A0A0A" alt="DOI Reference Link" />
-      </a>
-      <br/>
+      <img src="assets/milestones/research.svg" width="100%" alt="Peer-Reviewed Research Publication" /><br/><br/>
+      <img src="https://img.shields.io/badge/RESEARCH-PUBLISHED_%E2%80%A2_2026-E50914?style=for-the-badge&logo=book&logoColor=white&labelColor=0A0A0A" alt="Published 2026" /><br/><br/>
+      <strong><code>RESEARCH PUBLICATION</code></strong><br/><br/>
+      <p><em>"A Fully Offline, Multimodal Edge AI Wearable for the Visually Impaired"</em><br/><strong>FMDB Transactions on Sustainable Biomedical Engineering</strong> • 2026</p>
+      <a href="https://doi.org/10.69888/FTSBE.2026.000671"><img src="https://img.shields.io/badge/DOI-10.69888%2FFTSBE.2026.000671-E50914?style=flat-square&logo=doi&logoColor=white&labelColor=0A0A0A" alt="DOI Reference Link" /></a><br/>
       <small><a href="https://doi.org/10.69888/FTSBE.2026.000671">https://doi.org/10.69888/FTSBE.2026.000671</a></small>
     </td>
   </tr>
