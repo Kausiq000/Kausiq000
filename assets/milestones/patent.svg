@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 160" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="patentBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030303"/>
+      <stop offset="40%" stop-color="#0C0406"/>
+      <stop offset="70%" stop-color="#1A0508"/>
+      <stop offset="100%" stop-color="#050203"/>
+    </linearGradient>
+
+    <!-- Radial Patent Glow -->
+    <radialGradient id="patentGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF1A24" stop-opacity="0.45"/>
+      <stop offset="45%" stop-color="#E50914" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Circuit Pattern -->
+    <pattern id="patentGrid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#4A080D" stroke-width="0.5" stroke-opacity="0.25"/>
+      <circle cx="0" cy="0" r="0.6" fill="#E50914" fill-opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect x="2" y="2" width="436" height="156" rx="6" fill="url(#patentBg)"/>
+  <rect x="2" y="2" width="436" height="156" rx="6" fill="url(#patentGrid)"/>
+
+  <!-- Subtle Center Radial Glow -->
+  <ellipse cx="220" cy="80" rx="140" ry="70" fill="url(#patentGlow)"/>
+
+  <!-- Background Watermark Emblem: Faint Patent Document & Circuit Geometry -->
+  <g transform="translate(300, 20)" opacity="0.08" stroke="#E50914" fill="none" stroke-width="2.5">
+    <!-- Document outline with folded corner -->
+    <path d="M 20 15 L 75 15 L 95 35 L 95 110 L 20 110 Z"/>
+    <path d="M 75 15 L 75 35 L 95 35"/>
+    <!-- Document Text Lines -->
+    <line x1="32" y1="45" x2="68" y2="45"/>
+    <line x1="32" y1="58" x2="80" y2="58"/>
+    <line x1="32" y1="71" x2="80" y2="71"/>
+    <!-- Circuit lines radiating out -->
+    <path d="M 20 60 L 5 60 L 5 85 L -10 85"/>
+    <circle cx="-10" cy="85" r="4" fill="#E50914"/>
+  </g>
+
+  <!-- Multi-Layer Technical Borders -->
+  <rect x="5" y="5" width="430" height="150" rx="5" fill="none" stroke="#5A080D" stroke-opacity="0.4" stroke-width="2.5"/>
+  <rect x="6" y="6" width="428" height="148" rx="4" fill="none" stroke="#E50914" stroke-opacity="0.8" stroke-width="1.2"/>
+  <rect x="10" y="10" width="420" height="140" rx="3" fill="none" stroke="#250508" stroke-width="0.8"/>
+
+  <!-- Precision Corner Reticles -->
+  <path d="M 16 26 L 16 16 L 26 16" stroke="#FF1A24" stroke-width="1.8" fill="none"/>
+  <circle cx="16" cy="16" r="2" fill="#FFFFFF"/>
+  <path d="M 424 26 L 424 16 L 414 16" stroke="#FF1A24" stroke-width="1.8" fill="none"/>
+  <circle cx="424" cy="16" r="2" fill="#FFFFFF"/>
+  <path d="M 16 134 L 16 144 L 26 144" stroke="#FF1A24" stroke-width="1.8" fill="none"/>
+  <circle cx="16" cy="144" r="2" fill="#FFFFFF"/>
+  <path d="M 424 134 L 424 144 L 414 144" stroke="#FF1A24" stroke-width="1.8" fill="none"/>
+  <circle cx="424" cy="144" r="2" fill="#FFFFFF"/>
+
+  <!-- Index & Category -->
+  <text x="24" y="32" font-family="'SF Mono', 'Consolas', monospace" font-size="9" font-weight="700" letter-spacing="1.5" fill="#E50914">
+    02 // INTELLECTUAL PROPERTY
+  </text>
+
+  <!-- Large Illuminated Patent Document Icon Container -->
+  <g transform="translate(24, 46)">
+    <!-- Container Badge -->
+    <rect x="0" y="0" width="46" height="46" rx="23" fill="#140507" stroke="#FF1A24" stroke-width="1.5"/>
+    <circle cx="23" cy="23" r="28" fill="url(#patentGlow)" opacity="0.6"/>
+    <!-- Patent Document & Ribbon Icon in Pure White -->
+    <path d="M 14 12 L 27 12 L 32 17 L 32 34 L 14 34 Z" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M 27 12 L 27 17 L 32 17" fill="none" stroke="#FFFFFF" stroke-width="1.4"/>
+    <line x1="18" y1="21" x2="24" y2="21" stroke="#FFFFFF" stroke-width="1.4"/>
+    <line x1="18" y1="26" x2="28" y2="26" stroke="#FFFFFF" stroke-width="1.4"/>
+    <!-- Official IP Seal/Stamp -->
+    <circle cx="27" cy="30" r="4.5" fill="#140507" stroke="#FF1A24" stroke-width="1.2"/>
+    <path d="M 27 34.5 L 25 38 L 27 37 L 29 38 Z" fill="#FF1A24"/>
+  </g>
+
+  <!-- Main Card Typography -->
+  <text x="82" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif" font-weight="900" font-size="20" letter-spacing="1" fill="#FFFFFF">
+    THIRDEYE
+  </text>
+
+  <g transform="translate(82, 74)">
+    <!-- Pill Capsule Badge for Status -->
+    <rect x="0" y="0" width="200" height="20" rx="10" fill="#1C0508" stroke="#E50914" stroke-width="1"/>
+    <circle cx="10" cy="10" r="3" fill="#FF1A24"/>
+    <text x="20" y="13.5" font-family="'SF Mono', monospace" font-size="8.5" font-weight="700" letter-spacing="1" fill="#F3F4F6">
+      PATENT FILED / UNDER REVIEW
+    </text>
+  </g>
+
+  <!-- Bottom Details / Tech Subtext -->
+  <line x1="24" y1="120" x2="416" y2="120" stroke="#3A080D" stroke-width="1"/>
+  <text x="24" y="138" font-family="'SF Mono', 'Consolas', monospace" font-size="8" font-weight="700" fill="#9CA3AF">
+    <tspan fill="#FF1A24">DOMAIN // </tspan> ASSISTIVE MULTIMODAL EDGE AI WEARABLE
+  </text>
+</svg>
